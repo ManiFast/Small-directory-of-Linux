@@ -1,10 +1,13 @@
-# List_of_commands
+# List_of_commands  
 List of my frequent Linux terminal commands (updating every week)
 
+# Table of Contents  :
+
 ---
+### Main commands:
 `!$`    last argument (напр mkdir ss/sdf)</br>
 `!!`    previous comand</br>
-Super+Space     language keyboard</br>
+`Super+Space`     change language keyboard</br>
 `ls`     show files and folders</br>
   `ls -l -a`        -l beauti   -a  all files</br>
 `touch`     create file</br>
@@ -31,7 +34,7 @@ Super+Space     language keyboard</br>
 `find`     find file</br>
   `find /home -name "file*.txt"`</br>
 
-`grep <-i> <word> <file/path>`   find in folders or files, i = ignore case count Aa</br>
+`grep <-i> <word> <file/path>`   find in folders or files, 'i' = ignore case count Aa</br>
   `grep -E  "@[A-Za-z]*.com" file.txt`       find certain fraze in file</br>
   `grep "[A-Za-z0-9]*@gmail.com" email.txt`  example, find all email in end @gmail.com</br>
    [A-Z] [a-z] [0-9] @ _ - . </br>
@@ -44,13 +47,13 @@ Super+Space     language keyboard</br>
 `date`    show date (with args)</br>
   `date +"%H:%M"`  11:32</br>
 
-<b>Input text int file:</b></br>
+### Input text int file:</br>
   1) `cat > file.txt << ENDL`</br>    '>' its write in end ENDL its special word witch means end of line (random word)</br>
   2) `printf "text" > file.txt`</br>
   
 `sudo update-manager -c -d`   upgrade Linux</br>
 
-<b>Compiling</b>:</br>
+### Compiling:</br>
 `gcc file.c -o file`        compiling output file</br>
 `make file`          gcc file.c -o file</br>
 `./file`    run file</br>
@@ -61,7 +64,7 @@ Super+Space     language keyboard</br>
 `| column -t`    удобно вывести по колонкам</br>
 `sudo rm -R /`    kill Linux</br>
 
-<b>Keys</b>:</br>
+### Keys:</br>
 `^`    Its Ctrl</br>
 `^A ^E`   go to start or end </br>
 `^R`         finding commands</br>
@@ -70,12 +73,12 @@ Super+Space     language keyboard</br>
 `^Shift+V`              paste text</br>
 `^Shift+Insert`      paste text too :D</br>
 
-<b>VIM:</b></br>
-`^:`    open vim command line 
-`!`   extra ...  !q extra quit
-`w`   save
-`q`   quit
+### VIM:</br>
+`^:`    open vim command line</br>
+`!`   extra ...  !q extra quit</br>
+`w`   save</br>
+`q`   quit</br>
 `:%s/WORD/REPLEACEWORD/g`   find and replace (g - all)</br>
 
-<b>Features:</b>
+### Features:</br>
 если нажать tab в имени которое было оно само допишет</br>
