@@ -2,13 +2,17 @@
 List of my frequent Linux terminal commands (updating every week)
 
 # Table of Contents:
-- [<b>Main commands</b>](#main_commands)
+- [<b>Main</b>]()
+  - [Commands](#commands)
   - [Input text in file](#input_text_in_file)
   - [Compiling](#compiling)
-- [Hot keys](#keys)
-- [Programms]
+- [<b>Hot keys</b>](#keys)
+- [<b>Software</b>](#software)
+  - [VIM](#vim)
+- [<b>Features</b>](#features)
 ---
-## main_commands
+## Main
+### commands
 `!$`    last argument (напр mkdir ss/sdf)</br>
 `!!`    previous comand</br>
 `Super+Space`     change language keyboard</br>
@@ -68,7 +72,7 @@ List of my frequent Linux terminal commands (updating every week)
 `| column -t`    удобно вывести по колонкам</br>
 `sudo rm -R /`    kill Linux</br>
 
-### Keys:</br>
+## kes</br>
 `^`    Its Ctrl</br>
 `^A ^E`   go to start or end </br>
 `^R`         finding commands</br>
@@ -77,12 +81,14 @@ List of my frequent Linux terminal commands (updating every week)
 `^Shift+V`              paste text</br>
 `^Shift+Insert`      paste text too :D</br>
 
-### VIM:</br>
+## software
+
+### vim</br>
 `^:`    open vim command line</br>
 `!`   extra ...  !q extra quit</br>
 `w`   save</br>
 `q`   quit</br>
 `:%s/WORD/REPLEACEWORD/g`   find and replace (g - all)</br>
 
-### Features:</br>
+### features</br>
 если нажать tab в имени которое было оно само допишет</br>
