@@ -72,7 +72,7 @@ List of my frequent Linux terminal commands (updating every week)
 `| column -t`    удобно вывести по колонкам</br>
 `sudo rm -R /`    kill Linux</br>
 
-## kes</br>
+## keys</br>
 `^`    Its Ctrl</br>
 `^A ^E`   go to start or end </br>
 `^R`         finding commands</br>
