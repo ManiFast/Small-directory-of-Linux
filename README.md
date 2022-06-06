@@ -61,7 +61,7 @@ List of my frequent Linux terminal commands (updating every week)
   
 `sudo update-manager -c -d`   upgrade Linux</br>
 
-### compiling</br>
+### compiling
 `gcc file.c -o file`        compiling output file</br>
 `make file`          gcc file.c -o file</br>
 `./file`    run file</br>
