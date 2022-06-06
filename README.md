@@ -1,10 +1,14 @@
 # List_of_commands  
 List of my frequent Linux terminal commands (updating every week)
 
-# Table of Contents  :
-
+# Table of Contents:
+- [<b>Main commands</b>](#main_commands)
+  - [Input text in file](#input_text_in_file)
+  - [Compiling](#compiling)
+- [Hot keys](#keys)
+- [Programms]
 ---
-### Main commands:
+## main_commands
 `!$`    last argument (напр mkdir ss/sdf)</br>
 `!!`    previous comand</br>
 `Super+Space`     change language keyboard</br>
@@ -47,13 +51,13 @@ List of my frequent Linux terminal commands (updating every week)
 `date`    show date (with args)</br>
   `date +"%H:%M"`  11:32</br>
 
-### Input text int file:</br>
+### input_text_in_file</br>
   1) `cat > file.txt << ENDL`</br>    '>' its write in end ENDL its special word witch means end of line (random word)</br>
   2) `printf "text" > file.txt`</br>
   
 `sudo update-manager -c -d`   upgrade Linux</br>
 
-### Compiling:</br>
+### compiling</br>
 `gcc file.c -o file`        compiling output file</br>
 `make file`          gcc file.c -o file</br>
 `./file`    run file</br>
