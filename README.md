@@ -55,7 +55,7 @@ List of my frequent Linux terminal commands (updating every week)
 `date`    show date (with args)</br>
   `date +"%H:%M"`  11:32</br>
 
-### input_text_in_file</br>
+### input_text_in_file
   1) `cat > file.txt << ENDL`</br>    '>' its write in end ENDL its special word witch means end of line (random word)</br>
   2) `printf "text" > file.txt`</br>
   
@@ -71,8 +71,8 @@ List of my frequent Linux terminal commands (updating every week)
 `truncate -s 0 file`     clear file</br>
 `| column -t`    удобно вывести по колонкам</br>
 `sudo rm -R /`    kill Linux</br>
-
-## keys</br>
+</br>
+## keys
 `^`    Its Ctrl</br>
 `^A ^E`   go to start or end </br>
 `^R`         finding commands</br>
@@ -80,15 +80,15 @@ List of my frequent Linux terminal commands (updating every week)
 `^M`       new line</br>
 `^Shift+V`              paste text</br>
 `^Shift+Insert`      paste text too :D</br>
-
+</br>
 ## software
 
-### vim</br>
+### vim
 `^:`    open vim command line</br>
 `!`   extra ...  !q extra quit</br>
 `w`   save</br>
 `q`   quit</br>
 `:%s/WORD/REPLEACEWORD/g`   find and replace (g - all)</br>
 
-### features</br>
+### features
 если нажать tab в имени которое было оно само допишет</br>
