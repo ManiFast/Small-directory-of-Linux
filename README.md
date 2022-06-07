@@ -111,5 +111,6 @@ List of my frequent Linux terminal commands (updating every week)
 `sudo usermod -a -G vboxsf <user name>`   создание прав</br>
 `sudo apt-get install gcc make perl`    не знаю но надо</br>
 
-### features
+</br>
+## features
 если нажать tab в имени которое было оно само допишет</br>
