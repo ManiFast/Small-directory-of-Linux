@@ -9,6 +9,7 @@ List of my frequent Linux terminal commands (updating every week)
 - [<b>Hot keys</b>](#keys)
 - [<b>Software</b>](#software)
   - [VIM](#vim)
+- [<b>Root</b>](#root)
 - [<b>Features</b>](#features)
 ---
 ## Main
@@ -89,6 +90,9 @@ List of my frequent Linux terminal commands (updating every week)
 `w`   save</br>
 `q`   quit</br>
 `:%s/WORD/REPLEACEWORD/g`   find and replace (g - all)</br>
+</br>
+## root
+`sudo -i`
 
 ### features
 если нажать tab в имени которое было оно само допишет</br>
