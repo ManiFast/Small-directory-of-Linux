@@ -115,3 +115,6 @@ List of my frequent Linux terminal commands (updating every week)
 
 ## features
 если нажать tab в имени которое было оно само допишет</br>
+
+<b>Удаление ненужных зависимостей:</b>
+`sudo apt autoremove`
