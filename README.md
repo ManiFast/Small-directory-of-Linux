@@ -10,6 +10,7 @@ List of my frequent Linux terminal commands (updating every week)
 - [<b>Software</b>](#software)
   - [VIM](#vim)
 - [<b>Root</b>](#root)
+- [<b>Shared folder</b>](#shared_folder)
 - [<b>Features</b>](#features)
 ---
 ## Main
@@ -93,6 +94,22 @@ List of my frequent Linux terminal commands (updating every week)
 </br>
 ## root
 `sudo -i`
+
+</br>
+## shared_folder
+поставить двойное соединение</br>
+создать папку (auto amount, permanent)</br>
+
+<b>подключить CD Tools:</b>
+если само не открылось перейти в</br>
+`cd /media/user/VBox_GAs_6.1.34/VBox_GAs_6.1.34/`</br>
+`./autorun.sh`</br>
+`sudo apt update`</br>
+`sudo apt install update`</br>
+
+в консоли:
+`sudo usermod -a -G vboxsf <user name>`   создание прав</br>
+`sudo apt-get install gcc make perl`    не знаю но надо</br>
 
 ### features
 если нажать tab в имени которое было оно само допишет</br>
