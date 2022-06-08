@@ -115,7 +115,7 @@ List of my frequent Linux terminal commands (updating every week)
 </br>
 
 ## update
-Обновить Kali:
+Обновить Kali:</br>
 `sudo apt update && sudo apt full-upgrade -y && sudo reboot -f`
 
 ## features
