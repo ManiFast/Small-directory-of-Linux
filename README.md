@@ -96,7 +96,9 @@ List of my frequent Linux terminal commands (updating every week)
 ## root
 `sudo -i`
 
+
 </br>
+
 ## shared_folder</br>
 поставить двойное соединение</br>
 создать папку (auto amount, permanent)</br>
