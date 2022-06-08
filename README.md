@@ -11,6 +11,7 @@ List of my frequent Linux terminal commands (updating every week)
   - [VIM](#vim)
 - [<b>Root</b>](#root)
 - [<b>Shared folder</b>](#shared_folder)
+- [<b>Update Linux (Kali)](#update)
 - [<b>Features</b>](#features)
 ---
 ## Main
@@ -112,6 +113,10 @@ List of my frequent Linux terminal commands (updating every week)
 `sudo apt-get install gcc make perl`    не знаю но надо</br>
 
 </br>
+
+## update
+Обновить Kali:
+`sudo apt update && sudo apt full-upgrade -y && sudo reboot -f`
 
 ## features
 если нажать tab в имени которое было оно само допишет</br>
