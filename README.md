@@ -85,14 +85,18 @@ List of my frequent Linux terminal commands (updating every week)
 `| column -t`    удобно вывести по колонкам</br>
 `sudo rm -R /`    kill Linux</br>
 
-</br>
-## bash_scripting
-var`="`string`"`        create valuable
-`read` <var>         like "cin»var", write in value
-var`=$1`/2                 AKA Argument,      ./file $1
-`daytoday=$(date +"%D")`        example of pasting output command
 
 </br>
+
+## bash_scripting
+var`="`string`"`        create valuable</br>
+`read` <var>         like "cin»var", write in value</br>
+var`=$1`/2                 AKA Argument,      ./file $1</br>
+`daytoday=$(date +"%D")`        example of pasting output command</br>
+
+
+</br>
+
 ## keys
 `^`    Its Ctrl</br>
 `^A ^E`   go to start or end </br>
@@ -101,7 +105,9 @@ var`=$1`/2                 AKA Argument,      ./file $1
 `^M`       new line</br>
 `^Shift+V`              paste text</br>
 `^Shift+Insert`      paste text too :D</br>
+
 </br>
+
 ## software
 
 ### vim
@@ -110,21 +116,23 @@ var`=$1`/2                 AKA Argument,      ./file $1
 `w`   save</br>
 `q`   quit</br>
 `:%s/WORD/REPLEACEWORD/g`   find and replace (g - all)</br>
+
 </br>
+
 ## root
 `sudo su`
 `sudo -i`
 
 ## permisson
-1.
-sudo chown <user> <file/folder>
+1.</br>
+`sudo chown` <user> <file/folder></br>
 
-2. (for all users)
-sudo su
-chown -v <user> <file/folder>
+2. (for all users)</br>
+`sudo su`</br>
+`chown -v` <user> <file/folder></br>
 
-3 (most use). from -rwxrwxrwx to -rw-rw-r—, make your script executable
-sudo chmod +x <file>
+3 (most use). from -rwxrwxrwx to -rw-rw-r—, make your script executable</br>
+`sudo chmod +x` <file></br>
 
 </br>
 
@@ -144,16 +152,19 @@ sudo chmod +x <file>
 `sudo apt-get install gcc make perl`    не знаю но надо</br>
 
 </br>
-## update</br>
+
+## update
 Обновить Kali:</br>
 `sudo apt update && sudo apt full-upgrade -y && sudo reboot -f`</br>
 
 </br>
-## ssh</br>
+
+## ssh
 `ssh-keygen -t ed25519 -C "your_email@.com"`</br>
 
 </br>
-## features</br>
+
+## features
 ### apt-remove</br>
 <b>Удаление ненужных зависимостей:</b>
 `sudo apt autoremove`</br>
