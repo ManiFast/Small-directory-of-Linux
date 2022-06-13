@@ -124,13 +124,13 @@ List of my frequent Linux terminal commands (updating every week)
 `sudo -i`
 
 ## permisson
-1.</br>
+1</br>
 `sudo chown` <user> <file/folder></br>
-
-2. (for all users)</br>
+  
+2 (for all users)</br>
 `sudo su`</br>
 `chown -v` <user> <file/folder></br>
-
+  
 3 (most use). from -rwxrwxrwx to -rw-rw-r—, make your script executable</br>
 `sudo chmod +x` <file></br>
 
