@@ -165,7 +165,7 @@ List of my frequent Linux terminal commands (updating every week)
 
 ## features
 ### apt-remove</br>
-<b>Удаление ненужных зависимостей:</b>
+<b>Удаление ненужных зависимостей:</b></br>
 `sudo apt autoremove`</br>
 
 ---
