@@ -23,7 +23,7 @@ List of my frequent Linux terminal commands (updating every week)
   
   - [<b>Tricks</b>](#tricks)
 ---
-## MaiN(#Main)
+## Main
 ### commands
 `!$`    last argument (напр mkdir ss/sdf)</br>
 `!!`    previous comand</br>
