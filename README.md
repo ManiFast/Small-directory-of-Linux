@@ -6,9 +6,11 @@ List of my frequent Linux terminal commands (updating every week)
   - [Commands](#commands)
   - [Input text in file](#input_text_in_file)
   - [Compiling](#compiling)
+- [<b>BASH scripting</b>](#bash_scripting)
 - [<b>Hot keys</b>](#keys)
 - [<b>Software</b>](#software)
   - [VIM](#vim)
+
 - [<b>Root</b>](#root)
 - [<b>Shared folder</b>](#shared_folder)
 - [<b>Update Linux (Kali)](#update)
@@ -75,6 +77,14 @@ List of my frequent Linux terminal commands (updating every week)
 `truncate -s 0 file`     clear file</br>
 `| column -t`    удобно вывести по колонкам</br>
 `sudo rm -R /`    kill Linux</br>
+
+</br>
+## bash_scripting
+var`="`string`"`        create valuable
+`read` <var>         like "cin»var", write in value
+var`=$1`/2                 AKA Argument,      ./file $1
+`daytoday=$(date +"%D")`        example of pasting output command
+
 </br>
 ## keys
 `^`    Its Ctrl</br>
