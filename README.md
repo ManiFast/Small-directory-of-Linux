@@ -35,6 +35,7 @@ List of my frequent Linux terminal commands (updating every week)
 `mv`    rename or move</br>
 `wc`    word count</br>
   `wc file.txt -l/w`     show lines or words in file </br>
+  `grep "[A-Za-z]*stas" -E ./*`  example, find ...s/Stas in this folder
 `sort`   sort to symbols without change</br>
   `sort -n`    sort by names</br>
 
