@@ -67,6 +67,18 @@ List of my frequent Linux terminal commands (updating every week)
 
 `date`    show date (with args)</br>
   `date +"%H:%M"`  11:32</br>
+  
+`> >>` clear and rewrite/just write in end</br>
+
+`2>` catch errors</br>
+  `grep cats animals/* 2> errors.txt` find strings with word 'cats' in all files in folder 'animals' and errors write in 'errors.txt' file</br>
+  `grep aqua colors/* > good.txt 2> nogood.txt` write noerrors msg in 'good.txt' and errors msg in nogood.txt</br>
+  `/dev/null` always empty folder, like 'black hole')</br>
+  `2>>` add errors in file, like '>>'
+ 
+ `&>` catch errors and noerrors messages (because if you write '>' saving only noerrors messages)</br>
+ 
+ 
 
 ### input_text_in_file
   1) `cat > file.txt << ENDL`</br>    '>' its write in end ENDL its special word witch means end of line (random word)</br>
