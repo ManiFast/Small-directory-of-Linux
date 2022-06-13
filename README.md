@@ -72,7 +72,6 @@ List of my frequent Linux terminal commands (updating every week)
   1) `cat > file.txt << ENDL`</br>    '>' its write in end ENDL its special word witch means end of line (random word)</br>
   2) `printf "text" > file.txt`</br>
   
-`sudo update-manager -c -d`   upgrade Linux</br>
 
 ### compiling
 `gcc file.c -o file`        compiling output file</br>
