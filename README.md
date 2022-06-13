@@ -89,9 +89,9 @@ List of my frequent Linux terminal commands (updating every week)
 </br>
 
 ## bash_scripting
-var`="`string`"`        create valuable</br>
+`var="string"`       create valuable</br>
 `read` <var>         like "cin»var", write in value</br>
-var`=$1`/2                 AKA Argument,      ./file $1</br>
+`var=$1/2`                 AKA Argument,      ./file $1</br>
 `daytoday=$(date +"%D")`        example of pasting output command</br>
 
 
