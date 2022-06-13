@@ -12,9 +12,16 @@ List of my frequent Linux terminal commands (updating every week)
   - [VIM](#vim)
 
 - [<b>Root</b>](#root)
+- [<b>Permission</b>](#permisson)
+
 - [<b>Shared folder</b>](#shared_folder)
 - [<b>Update Linux (Kali)](#update)
+- [<b>SSH</b>](#ssh)
+  
 - [<b>Features</b>](#features)
+  - [<b>APT remove</b>](#apt-remove)
+  
+  - [<b>Tricks</b>](#tricks)
 ---
 ## Main
 ### commands
@@ -105,8 +112,19 @@ var`=$1`/2                 AKA Argument,      ./file $1
 `:%s/WORD/REPLEACEWORD/g`   find and replace (g - all)</br>
 </br>
 ## root
+`sudo su`
 `sudo -i`
 
+## permisson
+1.
+sudo chown <user> <file/folder>
+
+2. (for all users)
+sudo su
+chown -v <user> <file/folder>
+
+3 (most use). from -rwxrwxrwx to -rw-rw-r—, make your script executable
+sudo chmod +x <file>
 
 </br>
 
@@ -121,18 +139,26 @@ var`=$1`/2                 AKA Argument,      ./file $1
 `sudo apt update`</br>
 `sudo apt install update`</br>
 
-в консоли:
+в консоли:</br>
 `sudo usermod -a -G vboxsf <user name>`   создание прав</br>
 `sudo apt-get install gcc make perl`    не знаю но надо</br>
 
 </br>
-
-## update
+## update</br>
 Обновить Kali:</br>
-`sudo apt update && sudo apt full-upgrade -y && sudo reboot -f`
+`sudo apt update && sudo apt full-upgrade -y && sudo reboot -f`</br>
 
-## features
-если нажать tab в имени которое было оно само допишет</br>
+</br>
+## ssh</br>
+`ssh-keygen -t ed25519 -C "your_email@.com"`</br>
 
+</br>
+## features</br>
+### apt-remove</br>
 <b>Удаление ненужных зависимостей:</b>
-`sudo apt autoremove`
+`sudo apt autoremove`</br>
+
+---
+
+### tricks</br>
+если нажать tab в имени которое было оно само допишет</br>
