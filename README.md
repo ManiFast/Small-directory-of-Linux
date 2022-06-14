@@ -85,15 +85,11 @@ List of my frequent Linux terminal commands (updating every week)
   
 
 ### compiling
-`gcc file.c -o file`        compiling output file</br>
+`gcc file.c -o file`        compiling output for C file</br>
+`g++ file.c -o file`        compiling uutput for C++ file</br>
+
 `make file`          gcc file.c -o file</br>
 `./file`    run file</br>
-
-`ls -l && echo "Stas"`    если одно не выполнетеся остальное тоже</br>
-`ls -l; echo "Stas"`   добавить много команд</br>
-`truncate -s 0 file`     clear file</br>
-`| column -t`    удобно вывести по колонкам</br>
-`sudo rm -R /`    kill Linux</br>
 
 
 </br>
@@ -183,3 +179,8 @@ List of my frequent Linux terminal commands (updating every week)
 
 ### tricks</br>
 если нажать tab в имени которое было оно само допишет</br>
+`ls -l && echo "Stas"`    если одно не выполнетеся остальное тоже</br>
+`ls -l; echo "Stas"`   добавить много команд</br>
+`truncate -s 0 file`     clear file</br>
+`| column -t`    удобно вывести по колонкам</br>
+`sudo rm -R /`    Kill Linux</br>
