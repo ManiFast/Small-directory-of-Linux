@@ -73,7 +73,7 @@ List of my frequent Linux terminal commands (updating every week)
   `grep cats animals/* 2> errors.txt` find strings with word 'cats' in all files in folder 'animals' and errors write in 'errors.txt' file</br>
   `grep aqua colors/* > good.txt 2> nogood.txt` write noerrors msg in 'good.txt' and errors msg in nogood.txt</br>
   `/dev/null` always empty folder, like 'black hole')</br>
-  `2>>` add errors in file, like '>>'
+  `2>>` add errors in file, like '>>'</br>
 `&>` catch errors and noerrors messages (because if you write '>' saving only noerrors messages)</br>
  
  
