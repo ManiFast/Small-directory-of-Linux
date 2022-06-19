@@ -101,6 +101,7 @@ List of my frequent Linux terminal commands (updating every week)
   
 
 ### Archiving
+tar using without "-"
 `tar cvf <name.tar> <folder>` create archive (c - create, v - view, f - must be in end)</br>
   tar cvf data.tar dataBig/</br>
 `tar xvf <name.tar>` extract archive (x - unzip)</br>
