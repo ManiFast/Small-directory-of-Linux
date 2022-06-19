@@ -126,11 +126,18 @@ Compressing one file, (for example compress one big tar)</br>
   xz myData.tar</br>
 `unxz <file>` unzip</br>
 
+4) zip
+`zip -r <file.zip> <folder>` zip folder (r - recorsvely) with beauti adding
+    zip -r data.zip bigData/
+ `unzip <file.zip>` unzip
+    unzip data.zip
+
 All in 1 command:</br>
 tar - can make compression too</br>
 `tar cvzf <file.gz> <folder>` to .gz (z - create gzip)</br>
 `tar cvjf <file.bz2> <folder>` to .bz2 (j - create bzip2)</br>
 `tar cvJf <file.xz> <folder>` to .xz (J - create xz)</br>
+
 
 ### Compiling
 `gcc file.c -o file`        compiling output for C file</br>
