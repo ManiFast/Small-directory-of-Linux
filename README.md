@@ -86,11 +86,50 @@ List of my frequent Linux terminal commands (updating every week)
  
  
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 
 ### Input_text_in_file
   1) `cat > file.txt << ENDL`</br>    '>' its write in end ENDL its special word witch means end of line (random word)</br>
   2) `printf "text" > file.txt`</br>
   
+
+### Archiving
+`tar cvf <name.tar> <folder>` create archive (c - create, v - view, f - must be in end)</br>
+  tar cvf data.tar dataBig/</br>
+`tar xvf <name.tar>` extract archive (x - unzip)</br>
+  tar xvf data.tar</br>
+  `tar -C <path> -xvf <file>` extract to considered folder (C - path)</br>
+      tar -C home/ -xvf data.tar</br>
+`tar tf <name.tar>` view what in tar (t - test)</br>
+
+Compression:</br>
+Compressing one file, (for example compress one big tar)</br>
+1) gzip <b>.gz</b></br>
+`gzip <tar file/or 1 big file>` zip</br>
+  gzip myData.tar</br>
+`gunzip` unzip</br>
+
+2) bzip2 <b>.bz2</b> - best</br>
+`bzip2 <file>` zip</br>
+  bzip2 myData.tar</br>
+`bunzip2 <file>` unzip</br>
+
+3) xz <b>.xz<b></br>
+`xz <file>` zip</br>
+  xz myData.tar</br>
+`unxz <file>` unzip</br>
+
+All in 1 command:</br>
+tar - have compression too</br>
+`tar cvzf <file.gz> <folder>` to .gz (z - create gzip)</br>
+`tar cvjf <file.bz2> <folder>` to .bz2 (j - create bzip2)</br>
+`tar cvJf <file.xz> <folder>` to .xz (J - create xz)</br>
 
 ### Compiling
 `gcc file.c -o file`        compiling output for C file</br>
@@ -121,6 +160,16 @@ List of my frequent Linux terminal commands (updating every week)
 `^Shift+Insert`      paste text too :D</br>
 
 </br>
+
+
+
+
+
+
+
+
+
+
 
 ## Software
 
