@@ -6,6 +6,7 @@ List of my frequent Linux terminal commands (updating every week)
   - [Commands](#commands)
   - [Input text in file](#input_text_in_file)
   - [Archiving](#archiving)
+  - [Compression](#compression)
   - [Compiling](#compiling)
 - [<b>BASH scripting</b>](#bash_scripting)
 - [<b>Hot keys</b>](#keys)
@@ -108,7 +109,7 @@ List of my frequent Linux terminal commands (updating every week)
       tar -C home/ -xvf data.tar</br>
 `tar tf <name.tar>` view what in tar (t - test)</br>
 
-Compression:</br>
+### Compression
 Compressing one file, (for example compress one big tar)</br>
 1) gzip <b>.gz</b></br>
 `gzip <tar file/or 1 big file>` zip</br>
