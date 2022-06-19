@@ -111,7 +111,7 @@ List of my frequent Linux terminal commands (updating every week)
 
 </br>
 
-## keys
+## Keys
 `^`    Its Ctrl</br>
 `^A ^E`   go to start or end </br>
 `^R`         finding commands</br>
@@ -122,9 +122,9 @@ List of my frequent Linux terminal commands (updating every week)
 
 </br>
 
-## software
+## Software
 
-### vim
+### Vim
 `^:`    open vim command line</br>
 `!`   extra ...  !q extra quit</br>
 `w`   save</br>
@@ -133,11 +133,11 @@ List of my frequent Linux terminal commands (updating every week)
 
 </br>
 
-## root
+## Root
 `sudo su`
 `sudo -i`
 
-## permisson
+## Permisson
 1</br>
 `sudo chown` <user> <file/folder></br>
   
@@ -150,7 +150,7 @@ List of my frequent Linux terminal commands (updating every week)
 
 </br>
 
-## shared_folder</br>
+## Shared_folder</br>
 поставить двойное соединение</br>
 создать папку (auto amount, permanent)</br>
 
@@ -167,7 +167,7 @@ List of my frequent Linux terminal commands (updating every week)
 
 </br>
 
-## update
+## Update
 Обновить Kali:</br>
 `sudo apt update && sudo apt full-upgrade -y && sudo reboot -f`</br>
 
@@ -178,14 +178,14 @@ List of my frequent Linux terminal commands (updating every week)
 
 </br>
 
-## features
+## Features
 ### apt-remove</br>
 <b>Удаление ненужных зависимостей:</b></br>
 `sudo apt autoremove`</br>
 
 ---
 
-### tricks</br>
+### Tricks</br>
 если нажать tab в имени которое было оно само допишет</br>
 `ls -l && echo "Stas"`    если одно не выполнетеся остальное тоже</br>
 `ls -l; echo "Stas"`   добавить много команд</br>
