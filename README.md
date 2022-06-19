@@ -127,7 +127,7 @@ Compressing one file, (for example compress one big tar)</br>
 `unxz <file>` unzip</br>
 
 All in 1 command:</br>
-tar - have compression too</br>
+tar - can make compression too</br>
 `tar cvzf <file.gz> <folder>` to .gz (z - create gzip)</br>
 `tar cvjf <file.bz2> <folder>` to .bz2 (j - create bzip2)</br>
 `tar cvJf <file.xz> <folder>` to .xz (J - create xz)</br>
