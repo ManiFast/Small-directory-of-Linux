@@ -2,7 +2,7 @@
 List of my frequent Linux terminal commands (updating every week)
 
 # Table of Contents:
-- [<b>Main</b>]()
+- [<b>Main</b>](#main)
   - [Commands](#commands)
   - [Input text in file](#input_text_in_file)
   - [Compiling](#compiling)
