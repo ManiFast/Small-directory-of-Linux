@@ -5,6 +5,7 @@ List of my frequent Linux terminal commands (updating every week)
 - [<b>Main</b>](#main)
   - [Commands](#commands)
   - [Input text in file](#input_text_in_file)
+  - [Archiving](#archiving)
   - [Compiling](#compiling)
 - [<b>BASH scripting</b>](#bash_scripting)
 - [<b>Hot keys</b>](#keys)
@@ -24,7 +25,7 @@ List of my frequent Linux terminal commands (updating every week)
   - [<b>Tricks</b>](#tricks)
 ---
 ## Main
-### commands
+### Commands
 `!$`    last argument (напр mkdir ss/sdf)</br>
 `!!`    previous comand</br>
 `Super+Space`     change language keyboard</br>
@@ -78,13 +79,20 @@ List of my frequent Linux terminal commands (updating every week)
  
  
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 
-### input_text_in_file
+### Input_text_in_file
   1) `cat > file.txt << ENDL`</br>    '>' its write in end ENDL its special word witch means end of line (random word)</br>
   2) `printf "text" > file.txt`</br>
   
 
-### compiling
+### Compiling
 `gcc file.c -o file`        compiling output for C file</br>
 `g++ file.c -o file`        compiling uutput for C++ file</br>
 
@@ -94,7 +102,7 @@ List of my frequent Linux terminal commands (updating every week)
 
 </br>
 
-## bash_scripting
+## Bash_scripting
 `var="string"`       create valuable</br>
 `read` <var>         like "cin»var", write in value</br>
 `var=$1/2`                 AKA Argument,      ./file $1</br>
