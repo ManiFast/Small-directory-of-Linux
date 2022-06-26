@@ -1,4 +1,4 @@
-# List_of_commands                        
+# List_of_commands                         
 List of my frequent Linux terminal commands (updating every week)
 
 # Table of Contents:
@@ -78,6 +78,8 @@ List of my frequent Linux terminal commands (updating every week)
   `2>>` add errors in file, like '>>'</br>
 `&>` catch errors and noerrors messages (because if you write '>' saving only noerrors messages)</br>
  
+ `bg` show background process</br>
+ `fg` return to background</br>
  
  
  
