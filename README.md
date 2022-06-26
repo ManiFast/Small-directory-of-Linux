@@ -242,7 +242,7 @@ in VISUAL mode:</br>
 `cw` delete all to right in word (change word)</br>
 `C` delete all to right
 
- ### macros
+ ### Macros
  `q`<name> start to listen what you do</br>
  `q` stop listen</br>
  `@`<name> do macros</br>
