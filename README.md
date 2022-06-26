@@ -243,8 +243,8 @@ in VISUAL mode:</br>
 `C` delete all to right
 
  ### Macros
- `Q`<name> start to listen what you do</br>
- `Q` stop listen</br>
+ `q`<name> start to listen what you do</br>
+ `q` stop listen</br>
  `@`<name> do macros</br>
   `10@mac` - do ten times</br>
  
