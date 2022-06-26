@@ -196,8 +196,62 @@ Uncompression archving tar:</br>
 `q`   quit</br>
 `:%s/WORD/REPLEACEWORD/g`   find and replace (g - all)</br>
 
-</br>
+`ESC` NORMAL mode</br>
+`i` INSERT mode</br>
+`v` VISUAL mode</br>
 
+`h j k l` left down up right</br>
+`a` INSERT after 1 letter</br>
+`A` INSERT in end of line</br>
+`o` new line in down and INSERT</br>
+`O` new line in up and INSERT</br>
+
+`gg` go to start of file</br>
+`G` go to end of file</br>
+
+`w` ahead word</br>
+`b` back word</br>
+
+<number>`w` go to 10 word ahead</br>
+
+`/` find word (<b>down</b> from cursor)</br>
+  /555</br>
+`?` find word (<b>up</b> from cursor)</br>
+ 
+ `m`<name> set marker (;'\ жэ\)</br>
+    mfirst</br>
+ `'`<name> go to marker</br>
+    'first</br>
+
+in VISUAL mode:</br>
+`x` cut text</br>
+`p` paste text</br></br></br>
+`d` delete
+ 
+
+`dd` delete line
+  5dd - delete 5 lines
+`dw` delete word
+
+`u` like ^Z (back)
+
+`cw` delete all to right in word (change word)
+`C` delete all to right
+ 
+</br>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 ## Root
 `sudo su`
 `sudo -i`
