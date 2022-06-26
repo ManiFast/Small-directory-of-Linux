@@ -241,8 +241,9 @@ in VISUAL mode:</br>
 
 `cw` delete all to right in word (change word)</br>
 `C` delete all to right</br>
- 
- ###macros
+
+ </br>
+ ### macros
  `q`<name> start to listen what you do</br>
  `q` stop listen</br>
  `@`<name> do macros</br>
@@ -263,8 +264,8 @@ in VISUAL mode:</br>
   
   
 ## Root
-`sudo su`
-`sudo -i`
+`sudo su`</br>
+`sudo -i`</br>
 
 ## Permisson
 1</br>
