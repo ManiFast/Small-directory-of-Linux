@@ -172,8 +172,11 @@ Uncompression archving tar:</br>
 `^R`         finding commands</br>
 `^U`        clear what written on left</br>
 `^M`       new line</br>
+
 `^Shift+V`              paste text</br>
 `^Shift+Insert`      paste text too :D</br>
+
+`^h` show hidden files
 
 </br>
 
