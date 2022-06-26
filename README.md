@@ -240,9 +240,8 @@ in VISUAL mode:</br>
 `u` like ^Z (back)</br>
 
 `cw` delete all to right in word (change word)</br>
-`C` delete all to right</br>
+`C` delete all to right
 
- </br>
  ### macros
  `q`<name> start to listen what you do</br>
  `q` stop listen</br>
