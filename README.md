@@ -12,6 +12,7 @@ List of my frequent Linux terminal commands (updating every week)
 - [<b>Hot keys</b>](#keys)
 - [<b>Software</b>](#software)
   - [VIM](#vim)
+    - [Macros](#macros)
 
 - [<b>Root</b>](#root)
 - [<b>Permission</b>](#permisson)
@@ -229,17 +230,23 @@ Uncompression archving tar:</br>
 in VISUAL mode:</br>
 `x` cut text</br>
 `p` paste text</br></br></br>
-`d` delete
+`d` delete</br>
  
 
-`dd` delete line
-  5dd - delete 5 lines
-`dw` delete word
+`dd` delete line</br>
+  5dd - delete 5 lines</br>
+`dw` delete word</br>
 
-`u` like ^Z (back)
+`u` like ^Z (back)</br>
 
-`cw` delete all to right in word (change word)
-`C` delete all to right
+`cw` delete all to right in word (change word)</br>
+`C` delete all to right</br>
+ 
+ ###macros
+ `q`<name> start to listen what you do</br>
+ `q` stop listen</br>
+ `@`<name> do macros</br>
+  `10@mac` - do ten times</br>
  
 </br>
   
