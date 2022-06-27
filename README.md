@@ -1,4 +1,4 @@
-# List_of_commands                            
+# List_of_commands                           
 List of my frequent Linux terminal commands (updating every week)
 
 # Table of Contents:
@@ -82,9 +82,24 @@ List of my frequent Linux terminal commands (updating every week)
  `bg` show background process</br>
  `fg` return to background</br>
  
+ `top` task manager</br>
+ `ps` list of procces</br>
+    `ps -aux` show all in all</br>
+    ps -aux | grep manifast    find strings with this word</br>
  
+ `/var/log` logs</br>
+ `sudo dmesg` log of Linux core</br>
+ `/etc/passwd` system accaunts</br>
+ `/etc/shadow` all shifered passwords</br>
+ `/etc/group`  all users groups (f.e how can use sudo)</br>
  
- 
+ `whoami` what user</br>
+ `id` which groups u consist</br>
+    `id root` show id root</br>
+    
+  `last` who enter in pc
+  `who` who now use pc
+  
  
  
  
