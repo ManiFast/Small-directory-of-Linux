@@ -5,6 +5,7 @@ List of my frequent Linux terminal commands (updating every week)
 - [<b>Main</b>](#main)
   - [Commands](#commands)
   - [Input text in file](#input_text_in_file)
+  - [Users and groups](#users)
   - [Archiving](#archiving)
   - [Compression](#compression)
   - [Compiling](#compiling)
@@ -87,13 +88,7 @@ List of my frequent Linux terminal commands (updating every week)
     `ps -aux` show all in all</br>
     ps -aux | grep manifast    find strings with this word</br>
  
- `/var/log` logs</br>
- `sudo dmesg` log of Linux core</br>
- `/etc/passwd` system accaunts</br>
- `/etc/shadow` all shifered passwords</br>
- `/etc/group`  all users groups (f.e how can use sudo)</br>
- 
- `whoami` what user</br>
+  `whoami` what user</br>
  `id` which groups u consist</br>
     `id root` show id root</br>
     
@@ -103,22 +98,43 @@ List of my frequent Linux terminal commands (updating every week)
   
   `su` <user> change user
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
  
+ ### Logs
  
+ `/var/log` logs</br>
+ `sudo dmesg` log of Linux core</br>
+ `/etc/passwd` system accaunts</br>
+ `/etc/shadow` all shifered passwords</br>
+ `/etc/group`  all users groups (f.e how can use sudo)</br>
  
- 
- 
- 
- 
- 
- 
- 
- 
-
+  
 ### Input_text_in_file
   1) `cat > file.txt << ENDL`</br>    '>' its write in end ENDL its special word witch means end of line (random word)</br>
   2) `printf "text" > file.txt`</br>
   
+
+### Users
+`useradd -m` <name> add user (with home directory)</br>
+`userdel -r` <name> delete user (with home)</br>
+
+`/etc/skel` templete of home directory</br>
+`passwd` <user> change password for user</br>
+
+`groupadd` <name> create group in /etc/group</br>
+`groupdel` <name> delete group</br>
+ 
+ `usermod -aG` <group> <user> add user to group</br>
+ `deluser` <user> <group> delete user from group</br>
 
 ### Archiving
 tar using without "-"
