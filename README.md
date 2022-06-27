@@ -4,6 +4,7 @@ List of my frequent Linux terminal commands (updating every week)
 # Table of Contents:
 - [<b>Main</b>](#main)
   - [Commands](#commands)
+  - [Logs](#logs)
   - [Input text in file](#input_text_in_file)
   - [Users and groups](#users)
   - [Archiving](#archiving)
