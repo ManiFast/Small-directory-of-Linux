@@ -99,8 +99,10 @@ List of my frequent Linux terminal commands (updating every week)
     
   `last` who enter in pc
   `who` who now use pc
+  `w` what all users do
   
- 
+  `su` <user> change user
+  
  
  
  
