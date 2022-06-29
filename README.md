@@ -15,6 +15,7 @@ List of my frequent Linux terminal commands (updating every week)
 - [<b>Software</b>](#software)
   - [VIM](#vim)
     - [Macros](#macros)
+  - [Metasploit](#metasploit)
 
 - [<b>Root</b>](#root)
 - [<b>Permission</b>](#permisson)
@@ -285,9 +286,43 @@ in VISUAL mode:</br>
 </br>
   
   
+### metasploit
+<b>Exploit<b> - код для уязвимости</br>
+<b>Payload</b> - устанавливает соединение, выполняет скрипты)</br>
+<b>Post</b> -  запускается после успешного проникновения (кейлоггер, скачивает файлы)</br>
+<b>Encoder</b> - маскировка от антивирусов</br>
+
+<b>NOP</b> - заполняет пустоту в исполняемых файлах</br>
+<b>Auxiliary</b> - модули для сканирование сети анализа трафика</br>
+
+—-
   
+Конфиг (там где пароли)</br>
+<b>/usr/share/metasploit-framework/config</b></br>
+
+`db_status` show what <b>DB (DataBase)</b> is turn on</br>
+`db_disconect` disconnect DB</br>
+`db_connect -y` </usr/share/metasploit-framework/config/database.yml> connect DB with path</br>
   
-  
+`help`
+`workspace` show list of tabeles (projects)</br>
+  `workspace -a <name>` add new table</br>
+  `workspace -d <name>` delete table</br>
+`workspace <name>` switch to table</br>
+ 
+ `db_import <path>` import tables .xml</br>
+ `db_export <path>`
+ 
+ `hosts` show all hosts: ip, MAC and type OC</br>
+   `hosts -S <word>` find in hosts</br>
+ `sevices` show all services (from .xls files)</br>
+    `services -S` find in services</br>
+ `vulns` list of vulnerability (уязвимость)</br>
+ 
+ `notes` results from scaning</br>
+ `loot` save dump hash memory (I dnt know)</br>
+ `analyze` analyze DB</br>
+ `search type:exploit ftp` search exploits for ftp (ot enth)</br>
   
   
   
