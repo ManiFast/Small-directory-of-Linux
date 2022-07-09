@@ -331,15 +331,16 @@ in VISUAL mode:</br>
   
   
 ### nmap
-NMAP - scananig all ports and do pings.
-nmap - опции адрес
+NMAP - scananig all ports and do pings</br>
+nmap - опции адрес</br>
   
-<img width="550px" height="300px" src="https://user-images.githubusercontent.com/62830326/178114474-727049dd-e106-4dbe-bb8c-4b1b7203286d.png">
+<img width="550px" height="300px" src="https://user-images.githubusercontent.com/62830326/178114474-727049dd-e106-4dbe-bb8c-4b1b7203286d.png"></br>
   
+`--reason` what recive nmap from remote system</br>
+`1-p 0-65000` scanning all ports</br>
+`-oX <path>` save to file</br> 
   
-  
-  
-  
+`_http-generator: ` find port with access in web site</br>
   
   
   
