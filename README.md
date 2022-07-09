@@ -16,6 +16,7 @@ List of my frequent Linux terminal commands (updating every week)
   - [VIM](#vim)
     - [Macros](#macros)
   - [Metasploit](#metasploit)
+  - [NMAP](#nmap)
 
 - [<b>Root</b>](#root)
 - [<b>Permission</b>](#permisson)
@@ -326,6 +327,22 @@ in VISUAL mode:</br>
  `loot` save dump hash memory (I dnt know)</br>
  `analyze` analyze DB</br>
  `search type:exploit ftp` search exploits for ftp (ot enth)</br>
+  
+  
+  
+### nmap
+NMAP - scananig all ports and do pings.
+nmap - опции адрес
+  
+<img width="550px" height="300px" src="https://user-images.githubusercontent.com/62830326/178114474-727049dd-e106-4dbe-bb8c-4b1b7203286d.png">
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   
