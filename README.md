@@ -300,6 +300,9 @@ in VISUAL mode:</br>
 <b>Auxiliary</b> - модули для сканирование сети анализа трафика</br>
 
 —-
+Open in command:</br>
+`sudo msfdb init && msfconsole`</br>
+
   
 Конфиг (там где пароли)</br>
 <b>/usr/share/metasploit-framework/config</b></br>
@@ -312,6 +315,7 @@ in VISUAL mode:</br>
 `workspace` show list of tabeles (projects)</br>
   `workspace -a <name>` add new table</br>
   `workspace -d <name>` delete table</br>
+  `workspace -D` delete all</br>
 `workspace <name>` switch to table</br>
  
  `db_import <path>` import tables .xml</br>
@@ -337,12 +341,13 @@ nmap - опции адрес</br>
 <img width="550px" height="300px" src="https://user-images.githubusercontent.com/62830326/178114474-727049dd-e106-4dbe-bb8c-4b1b7203286d.png"></br>
   
 `--reason` what recive nmap from remote system</br>
-`1-p 0-65000` scanning all ports</br>
+`1-p 0-65535` scanning all ports</br>
 `-oX <path>` save to file</br> 
   
 `_http-generator: ` find port with access in web site</br>
-  
-  
+ 
+example:</br>
+`sudo nmap -A --reason <ip> -oX <path>.xml`</br>
   
   
   
