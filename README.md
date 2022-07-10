@@ -17,7 +17,8 @@ List of my frequent Linux terminal commands (updating every two days)
     - [Macros](#macros)
   - [Metasploit](#metasploit)
   - [NMAP](#nmap)
-
+  - [SCRCPY](#scrcpy)
+  - [GHOST](#ghost)
 - [<b>Root</b>](#root)
 - [<b>Permission</b>](#permisson)
 
@@ -348,6 +349,49 @@ nmap - опции адрес</br>
  
 example:</br>
 `sudo nmap -A --reason <ip> -oX <path>.xml`</br>
+  
+  
+  
+### scrcpy
+SCRCPY Framework using for remote controle and emilate touches with output live divese</br>
+dont forget turn on usb connection in VBox if u use -d, (USB/Wireless)</br>
+
+site for help find ip https://www.shodan.io/</br>
+
+`adb devices` show all devices</br>
+
+`adb connect <ip>:<port>` connecting</br>
+`scrcpy -St` cocntroll (Screen hide, touches)</br>
+  `scrcpy -d` (use usb)</br>
+  `scrcpy -e` (use TCP/IP device)</br>
+
+`adb kill-server` kill port, if failed to connect</br>
+`adb tcpip <port 9999>` create port</br>
+
+
+`adb forward --list serial "" local "" remote ""` ?</br>
+`adb logcat` ? View device log</br>
+
+adb get-state</br>
+ Prints: offline | bootloader | device</br>
+  
+  
+  
+### ghost
+GHOST using for fast remote connecting to divece and share files and do screenshots</br>
+after ghost if connction successeful better use SCRCPY Framework :D</br>
+
+`connect <ip>`</br>
+`help`</br>
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   
