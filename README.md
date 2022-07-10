@@ -1,5 +1,5 @@
 # List_of_commands     
-List of my frequent Linux terminal commands (updating every week)
+List of my frequent Linux terminal commands (updating every two days)
 
 # Table of Contents:
 - [<b>Main</b>](#main)
