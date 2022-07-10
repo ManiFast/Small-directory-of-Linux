@@ -356,7 +356,7 @@ example:</br>
 SCRCPY Framework using for remote controle and emilate touches with output live divese</br>
 dont forget turn on usb connection in VBox if u use -d, (USB/Wireless)</br>
 
-site for help find ip https://www.shodan.io/</br>
+site for help find ip https://www.shodan.io/ in search "android debug bridge"</br>
 
 `adb devices` show all devices</br>
 
@@ -378,7 +378,7 @@ adb get-state</br>
   
   
 ### ghost
-GHOST using for fast remote connecting to divece and share files and do screenshots</br>
+GHOST Framework using for fast remote connecting to divece and share files and do screenshots</br>
 after ghost if connction successeful better use SCRCPY Framework :D</br>
 
 `connect <ip>`</br>
