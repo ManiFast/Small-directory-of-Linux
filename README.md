@@ -19,6 +19,8 @@ List of my frequent Linux terminal commands (updating every two days)
   - [NMAP](#nmap)
   - [SCRCPY](#scrcpy)
   - [GHOST](#ghost)
+  - [Extracting information from metadata](#extract_info)
+    - [ExifTool](#exiftool)
 - [<b>Root</b>](#root)
 - [<b>Permission</b>](#permisson)
 
@@ -385,7 +387,10 @@ after ghost if connction successeful better use SCRCPY Framework :D</br>
 `help`</br>
   
   
-  
+### extract_info
+#### exiftool
+
+`sudo apt-get install exiftool`</br>
   
   
   
