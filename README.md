@@ -19,6 +19,8 @@ List of my frequent Linux terminal commands (updating every two days)
   - [NMAP](#nmap)
   - [SCRCPY](#scrcpy)
   - [GHOST](#ghost)
+  - [MacChanger](#macchanger)
+  - [AutoTor](#auto_tor)
   - [Extracting information from metadata](#extract_info)
     - [ExifTool](#exiftool)
 - [<b>Root</b>](#root)
@@ -385,6 +387,23 @@ after ghost if connction successeful better use SCRCPY Framework :D</br>
 
 `connect <ip>`</br>
 `help`</br>
+  
+### macchanger
+MacChanger using for generate fake MAC adress.</br>
+
+`sudo macchanger -A <eth0>` set random MAC</br>
+
+`sudo macchanger -a <eth0>` set fake MAC</br>
+`sudo macchanger -r <eth0>` set fully random MAC</br>
+  
+### auto_tor
+Change IP</br>
+
+`git clone https://github.com/FDX100/Auto_Tor_IP_changer.git`</br></br>
+`python3 install.py`</br>
+`python3 autoTOR.py`</br>
+ 60</br>
+ 100</br>
   
   
 ### extract_info
