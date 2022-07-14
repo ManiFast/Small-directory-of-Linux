@@ -23,6 +23,7 @@ List of my frequent Linux terminal commands (updating every two days)
   - [AutoTor](#auto_tor)
   - [Extracting information from metadata](#extract_info)
     - [ExifTool](#exiftool)
+    - [MetaGooFil](#metagoofil)
 - [<b>Root</b>](#root)
 - [<b>Permission</b>](#permisson)
 
@@ -410,8 +411,22 @@ Change IP</br>
   
 ### extract_info
 #### exiftool
+Using for showing all info of file (meta). For ex. find name of creator.<br>
 
-`sudo apt-get install exiftool`</br>
+`sudo apt-get install exiftool` - install</br>
+
+`exiftool <file path>` start</br>
+
+#### metagoofil
+Using for download all file from site.</br>
+
+`sudo apt-get install metagoofil` - install</br>
+
+`metagoofil -d <site> -l 10 -n 10 -t <.type> -o <save path>` start, -l limit, download files limit, -t type of file, -s where save.</br>
+
+example:</br>
+`metagoofil -d it-black.ru -l 10 -n 10 -t pdf,dox,xml,xls,docx -o /home/manifast/Desktop/`</br>
+
   
   
   
