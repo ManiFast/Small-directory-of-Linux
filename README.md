@@ -15,11 +15,13 @@ List of my frequent Linux terminal commands (updating every two days)
 - [<b>Software</b>](#software)
   - [VIM](#vim)
     - [Macros](#macros)
+    - [Config VIM](#config)
   - [Metasploit](#metasploit)
   - [NMAP](#nmap)
   - [SCRCPY](#scrcpy)
   - [GHOST](#ghost)
   - [MacChanger](#macchanger)
+  - [Proxychain](#proxychain)
   - [AutoTor](#auto_tor)
   - [Extracting information from metadata](#extract_info)
     - [ExifTool](#exiftool)
@@ -101,18 +103,18 @@ List of my frequent Linux terminal commands (updating every two days)
  `id` which groups u consist</br>
     `id root` show id root</br>
     
-  `last` who enter in pc
-  `who` who now use pc
-  `w` what all users do
+  `last` who enter in pc</br>
+  `who` who now use pc</br>
+  `w` what all users do</br>
   
-  `su` <user> change user
+  `su` <user> change user</br>
   
-  
-  
-  
+  `locate <app>` where is program locate</br>
   
   
   
+  
+  -------------------------------------------------------------------------------------------------------------
   
   
   
@@ -232,6 +234,8 @@ Uncompression archving tar:</br>
 
 
 
+---------------------------------------------------------------------------------------------
+
 
 ## Software
 
@@ -289,6 +293,11 @@ in VISUAL mode:</br>
  `q` stop listen</br>
  `@`<name> do macros</br>
   `10@mac` - do ten times</br>
+ 
+ ### config
+ [cfg here](https://github.com/ManiFast/Linux_Config_Backup/blob/main/.vimrc)</br>
+ 
+ `sudo vim ~/.vimrc`
  
 </br>
   
@@ -399,6 +408,10 @@ MacChanger using for generate fake MAC adress.</br>
 `sudo macchanger -a <eth0>` set fake MAC</br>
 `sudo macchanger -r <eth0>` set fully random MAC</br>
   
+### proxychains
+path `locate proxychains`</br>
+    `sudo vim etc/proxychains.conf`</br>
+
 ### auto_tor
 Change IP</br>
 
@@ -426,7 +439,6 @@ Using for download all file from site.</br>
 
 example:</br>
 `metagoofil -d it-black.ru -l 10 -n 10 -t pdf,dox,xml,xls,docx -o /home/manifast/Desktop/`</br>
-
   
   
   
@@ -441,6 +453,10 @@ example:</br>
   
   
   
+  
+  
+  
+  ------------------------------------------------------------------------------------------
   
 ## Root
 `sudo su`</br>
