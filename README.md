@@ -27,7 +27,9 @@ List of my frequent Linux terminal commands (updating every two days)
   - [Extracting information from metadata](#extract_info)
     - [ExifTool](#exiftool)
     - [MetaGooFil](#metagoofil)
-  - [theHarvester](#theharvester)
+  - [Find information about emails](#info_of_emails)
+    - [theHarvester](#theharvester)
+    - [Search Email Collector](#search_email_collector)
 
 - [<b>Root</b>](#root)
 - [<b>Permission</b>](#permisson)
@@ -457,16 +459,22 @@ Using for download all file from site.</br>
 example:</br>
 `metagoofil -d it-black.ru -l 10 -n 10 -t pdf,dox,xml,xls,docx -o /home/manifast/Desktop/`</br>
   
-  
-### theharvester
+### info_of_emails
+#### theharvester
 Find emails in domen.</br>
 
 `theHarvester -d <domain> -l <count> -f <save path>` </br>
     `theHarvester -d mail.ru -l 500 -f google -f /home/manifast/Desktop/file` example</br>
   
+#### search_email_collector
+Start Metasploit</br>
+`use auxiliary/gather/search_email_collector` open</br>
+`show options` help</br>
   
-  
-  
+#### Google Hacking
+Use for find login page or enother info</br>
+
+[Pentest-tools site](https://pentest-tools.com/information-gathering/google-hacking)</br>
   
   
   
