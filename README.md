@@ -17,6 +17,7 @@ List of my frequent Linux terminal commands (updating every two days)
     - [Macros](#macros)
     - [Config VIM](#config)
   - [Metasploit](#metasploit)
+    - [Search Email Collector](#search_email_collector)
   - [NMAP](#nmap)
   - [SCRCPY](#scrcpy)
   - [GHOST](#ghost)
@@ -26,6 +27,7 @@ List of my frequent Linux terminal commands (updating every two days)
   - [Extracting information from metadata](#extract_info)
     - [ExifTool](#exiftool)
     - [MetaGooFil](#metagoofil)
+
 - [<b>Root</b>](#root)
 - [<b>Permission</b>](#permisson)
 
@@ -347,6 +349,20 @@ Open in command:</br>
  `analyze` analyze DB</br>
  `search type:exploit ftp` search exploits for ftp (ot enth)</br>
   
+#### search_email_collector
+Start Metasploit</br>
+`use auxiliary/gather/search_email_collector` open</br>
+`show options` help</br>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
 ### nmap
@@ -441,7 +457,7 @@ example:</br>
 `metagoofil -d it-black.ru -l 10 -n 10 -t pdf,dox,xml,xls,docx -o /home/manifast/Desktop/`</br>
   
   
-  
+
   
   
   
