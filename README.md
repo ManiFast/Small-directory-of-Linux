@@ -27,6 +27,7 @@ List of my frequent Linux terminal commands (updating every two days)
   - [Extracting information from metadata](#extract_info)
     - [ExifTool](#exiftool)
     - [MetaGooFil](#metagoofil)
+  - [theHarvester](#theharvester)
 
 - [<b>Root</b>](#root)
 - [<b>Permission</b>](#permisson)
@@ -457,8 +458,11 @@ example:</br>
 `metagoofil -d it-black.ru -l 10 -n 10 -t pdf,dox,xml,xls,docx -o /home/manifast/Desktop/`</br>
   
   
+### theharvester
+Find emails in domen.</br>
 
-  
+`theHarvester -d <domain> -l <count> -f <save path>` </br>
+    `theHarvester -d mail.ru -l 500 -f google -f /home/manifast/Desktop/file` example</br>
   
   
   
