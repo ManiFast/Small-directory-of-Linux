@@ -30,6 +30,7 @@ List of my frequent Linux terminal commands (updating every two days)
   - [Find information about emails](#info_of_emails)
     - [theHarvester](#theharvester)
     - [Search Email Collector](#search_email_collector)
+    - [Maltego](#maltego)
 
 - [<b>Root</b>](#root)
 - [<b>Permission</b>](#permisson)
@@ -476,7 +477,8 @@ Use for find login page or enother info</br>
 
 [Pentest-tools site](https://pentest-tools.com/information-gathering/google-hacking)</br>
   
-  
+#### Maltego
+
   
   
   
