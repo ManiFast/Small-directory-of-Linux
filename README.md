@@ -378,6 +378,7 @@ nmap - опции адрес</br>
 `--reason` what recive nmap from remote system</br>
 `-p 0-65535` scanning all ports</br>
 `-oX <path>` save to file</br> 
+`-A` for find OC</br>
   
 if open port:
 `_http-generator: ` find port with access in web site</br>
@@ -385,6 +386,8 @@ if open port:
  
 example:</br>
 `sudo nmap -A --reason <ip> -oX <path>.xml`</br>
+
+`sudo nmap -A --reason 192.168.0.106 -p 0-54535 -oX /home/manifast/Desktop/scan.xml`</br>
   
   
   
