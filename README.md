@@ -295,7 +295,7 @@ in VISUAL mode:</br>
   `10@mac` - do ten times</br>
  
  ### config
- [cfg here](https://github.com/ManiFast/Linux_Config_Backup/blob/main/.vimrc)</br>
+ [My cfg here](https://github.com/ManiFast/Linux_Config_Backup/blob/main/.vimrc)</br>
  
  `sudo vim ~/.vimrc`
  
