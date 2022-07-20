@@ -274,10 +274,10 @@ Uncompression archving tar:</br>
   /555</br>
 `?` find word (<b>up</b> from cursor)</br>
  
- `m`<name> set marker (;'\ жэ\)</br>
-    mfirst</br>
- `'`<name> go to marker</br>
-    'first</br>
+`m`<name> set marker (;'\ жэ\)</br>
+  mfirst</br>
+`'`<name> go to marker</br>
+  'first</br>
 
 in VISUAL mode:</br>
 `x` cut text</br>
@@ -298,7 +298,7 @@ in VISUAL mode:</br>
  `q`<name> start to listen what you do</br>
  `q` stop listen</br>
  `@`<name> do macros</br>
-  `10@mac` - do ten times</br>
+  `10@mac` - do ten times</br>
  
  ### config
  [My cfg here](https://github.com/ManiFast/Linux_Config_Backup/blob/main/.vimrc)</br>
@@ -333,25 +333,28 @@ Open in command:</br>
   
 `help`
 `workspace` show list of tabeles (projects)</br>
-  `workspace -a <name>` add new table</br>
-  `workspace -d <name>` delete table</br>
-  `workspace -D` delete all</br>
+  `workspace -a <name>` add new table</br>
+  `workspace -d <name>` delete table</br>
+  `workspace -D` delete all</br>
 `workspace <name>` switch to table</br>
  
  `db_import <path>` import tables .xml (from nmap scans)</br>
  `db_export <path>`
  
  `hosts` show all hosts: ip, MAC and type OC</br>
-   `hosts -S <word>` find in hosts</br>
- `sevices` show all services (from .xls files, show all open ports)</br>
-    `services -S` find in services</br>
+  `hosts -S <word>` find in hosts</br>
+ `services` show all services (from .xls files, show all open ports)</br>
+  `services -S` find in services</br>
  `notes` more info from scaning ports (results)</br>
  
  `vulns` list of vulnerability (уязвимость)</br>
  `loot` save dump hash memory (I dnt know)</br>
  `analyze` analyze DB for all ip</br>
  
- `search type:exploit ftp` search exploits for ftp (ot enth)</br>
+ `search type:<exploit> <find>` search exploits</br>
+   `search type:auxiliary ms17`</br>
+ `use <exploit>` use</br>
+   `use auxiliary/scanner/smb/smb_ms17_010`</br>
   
 #### search_email_collector
 Start Metasploit</br>
@@ -359,8 +362,10 @@ Start Metasploit</br>
 `show options` help</br>
   
 #### inbuilt nmap
+`help db_nmap` help</br>
 
-  
+`db_nmap -A <ip> -v` (-v see result)</br>
+  `db_nmap -A 192.168.0.106 -v`
   
   
   
@@ -402,8 +407,8 @@ site for help find ip https://www.shodan.io/ in search "android debug bridge"</b
 
 `adb connect <ip>:<port>` connecting</br>
 `scrcpy -St` cocntroll (Screen hide, touches)</br>
-  `scrcpy -d` (use usb)</br>
-  `scrcpy -e` (use TCP/IP device)</br>
+  `scrcpy -d` (use usb)</br>
+  `scrcpy -e` (use TCP/IP device)</br>
 
 `adb kill-server` kill port, if failed to connect</br>
 `adb tcpip <port 9999>` create port</br>
@@ -469,7 +474,7 @@ example:</br>
 Find emails in domen.</br>
 
 `theHarvester -d <domain> -l <count> -f <save path>` </br>
-    `theHarvester -d mail.ru -l 500 -f google -f /home/manifast/Desktop/file` example</br>
+  `theHarvester -d mail.ru -l 500 -f google -f /home/manifast/Desktop/file` example</br>
   
 #### search_email_collector
 Start Metasploit</br>
