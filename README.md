@@ -323,7 +323,6 @@ in VISUAL mode:</br>
 —-
 Open in command:</br>
 `sudo msfdb init && msfconsole`</br>
-
   
 Конфиг (там где пароли)</br>
 <b>/usr/share/metasploit-framework/config</b></br>
@@ -339,18 +338,19 @@ Open in command:</br>
   `workspace -D` delete all</br>
 `workspace <name>` switch to table</br>
  
- `db_import <path>` import tables .xml</br>
+ `db_import <path>` import tables .xml (from nmap scans)</br>
  `db_export <path>`
  
  `hosts` show all hosts: ip, MAC and type OC</br>
    `hosts -S <word>` find in hosts</br>
- `sevices` show all services (from .xls files)</br>
+ `sevices` show all services (from .xls files, show all open ports)</br>
     `services -S` find in services</br>
- `vulns` list of vulnerability (уязвимость)</br>
+ `notes` more info from scaning ports (results)</br>
  
- `notes` results from scaning</br>
+ `vulns` list of vulnerability (уязвимость)</br>
  `loot` save dump hash memory (I dnt know)</br>
- `analyze` analyze DB</br>
+ `analyze` analyze DB for all ip</br>
+ 
  `search type:exploit ftp` search exploits for ftp (ot enth)</br>
   
 #### search_email_collector
@@ -358,7 +358,8 @@ Start Metasploit</br>
 `use auxiliary/gather/search_email_collector` open</br>
 `show options` help</br>
   
-  
+#### inbuilt nmap
+
   
   
   
