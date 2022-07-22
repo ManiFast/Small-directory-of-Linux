@@ -393,7 +393,7 @@ if open port:
 example:</br>
 `sudo nmap -A --reason <ip> -oX <path>.xml`</br>
 
-`sudo nmap -A --reason 192.168.0.106 -p 0-54535 -oX /home/manifast/Desktop/scan.xml`</br>
+`sudo nmap -A --reason 192.168.0.106 -p 0-54535 -oX /home/manifast/Desktop/scan.xml -v`</br>
   
   
   
