@@ -386,6 +386,7 @@ nmap - опции адрес</br>
 `-oX <path>` save to file</br> 
 `-A` for find OC</br>
 `-iL` scan ports in txt file</br>
+`-oN` write output in txt file</br> 
   
 if open port:
 `_http-generator: ` find port with access in web site</br>
