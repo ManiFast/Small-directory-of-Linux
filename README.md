@@ -19,6 +19,7 @@ List of my frequent Linux terminal commands (updating every two days)
   - [Metasploit](#metasploit)
     - [Search Email Collector](#search_email_collector)
   - [NMAP](#nmap)
+    - [ZENMAP](#zenmap)
   - [SCRCPY](#scrcpy)
   - [GHOST](#ghost)
   - [MacChanger](#macchanger)
@@ -396,6 +397,10 @@ example:</br>
 `sudo nmap -A --reason <ip> -oX <path>.xml`</br>
 
 `sudo nmap -A --reason 192.168.0.106 -p 0-54535 -oX /home/manifast/Desktop/scan.xml -v`</br>
+  
+#### zenmap
+I dont know how you can be such a pervert to use this piece ...</br>
+
   
   
   
