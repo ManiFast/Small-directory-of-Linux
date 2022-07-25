@@ -327,6 +327,9 @@ in VISUAL mode:</br>
 Open in command:</br>
 `sudo msfdb init && msfconsole`</br>
 `msfconsole`</br>
+
+Update:</br>
+`msfupdate`</br>
   
 Конфиг (там где пароли)</br>
 <b>/usr/share/metasploit-framework/config</b></br>
