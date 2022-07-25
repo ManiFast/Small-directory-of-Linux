@@ -18,6 +18,8 @@ List of my frequent Linux terminal commands (updating every two days)
     - [Config VIM](#config)
   - [Metasploit](#metasploit)
     - [Search Email Collector](#search_email_collector)
+    - [Inbuilt nmap](#inbuilt_nmap)
+    - [Find auxiliary for certain ports (table)](#find_auxiliary_for_ports)
   - [NMAP](#nmap)
     - [ZENMAP](#zenmap)
   - [SCRCPY](#scrcpy)
@@ -324,6 +326,7 @@ in VISUAL mode:</br>
 —-
 Open in command:</br>
 `sudo msfdb init && msfconsole`</br>
+`msfconsole`</br>
   
 Конфиг (там где пароли)</br>
 <b>/usr/share/metasploit-framework/config</b></br>
@@ -354,20 +357,39 @@ Open in command:</br>
  
  `search type:<exploit> <find>` search exploits</br>
    `search type:auxiliary ms17`</br>
- `use <exploit>` use</br>
+ `use auxiliary/<exploit-path>` use</br>
    `use auxiliary/scanner/smb/smb_ms17_010`</br>
+   
+ `show options`</br>
+ `info`</br>
+ 
+**RPORT** - port wich exploit will attack</br>
+**RHOSTS** - target ip (must be set)</br>
+    `set rhosts <ip>` - set target ip</br>
+ U can set rhosts in start, without every time set into exploit</br>
+    
+ [+] - vulnerable</br>
+ [\*] - No</br>
+ 
   
 #### search_email_collector
 Start Metasploit</br>
 `use auxiliary/gather/search_email_collector` open</br>
 `show options` help</br>
   
+  
 #### inbuilt nmap
 `help db_nmap` help</br>
 
 `db_nmap -A <ip> -v` (-v see result)</br>
-  `db_nmap -A 192.168.0.106 -v`
+  `db_nmap -A 192.168.0.106 -v`</br>
   
+#### find_auxiliary_for_ports  
+80 - auxiliary/dos/https/wordpress_xmlrpc_dos</br>
+
+**Features of auxiliary:**</br>
+auxiliary/scanner/portscan/tcp - a tcp port scan (set THREADS 50)</br>
+
   
   
   
@@ -389,14 +411,14 @@ nmap - опции адрес</br>
 `-iL` scan ports in txt file</br>
 `-oN` write output in txt file</br> 
   
-if open port:
+if open port:</br>
 `_http-generator: ` find port with access in web site</br>
 5000/tcp open     tcpwrapped    syn-ack ttl 64</br>
  
 example:</br>
 `sudo nmap -A --reason <ip> -oX <path>.xml`</br>
 
-`sudo nmap -A --reason 192.168.0.106 -p 0-54535 -oX /home/manifast/Desktop/scan.xml -v`</br>
+`sudo nmap -A --reason -v 192.168.0.106 -p 0-54535 -oX /home/manifast/Desktop/scan.xml`</br>
   
 #### zenmap
 I dont know how you can be such a pervert to use this piece ...</br>
