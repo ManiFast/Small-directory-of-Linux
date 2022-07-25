@@ -385,7 +385,31 @@ Start Metasploit</br>
   `db_nmap -A 192.168.0.106 -v`</br>
   
 #### find_auxiliary_for_ports  
-80 - auxiliary/dos/https/wordpress_xmlrpc_dos</br>
+
+<table>
+  <tr>
+    <td>80</td>
+    <td>auxiliary/dos/https/wordpress_xmlrpc_dos</td>
+  </tr>
+  <tr>
+    <td>2001</td>
+    <td>auxiliary/dos/http/monkey_headers</td>
+  </tr>
+  <tr>
+    <td>3128</td>
+    <td>auxiliary/dos/http/squid_range_dos</td>
+  </tr>
+  <tr>
+    <td>8080</td>
+    <td>auxiliary/dos/http/cable_haunt_websocket_dos</td>
+  </tr>
+  
+  
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
 
 **Features of auxiliary:**</br>
 auxiliary/scanner/portscan/tcp - a tcp port scan (set THREADS 50)</br>
