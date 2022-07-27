@@ -393,6 +393,17 @@ Start Metasploit</br>
   <tr>
     <td>80</td>
     <td>auxiliary/dos/https/wordpress_xmlrpc_dos</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>445</td>
+    <td>auxiliary/scanner/msb/msb_ms17_010</td>
+    <td>MS17</td>
+  </tr>
+  <tr>
+    <td>3389</td>
+    <td>auxiliary/scanner/rdp/ms12_020_check</td>
+    <td>oRDP</td>
   </tr>
   <tr>
     <td>2001</td>
@@ -409,6 +420,7 @@ Start Metasploit</br>
   
   
   <tr>
+    <td></td>
     <td></td>
     <td></td>
   </tr>
