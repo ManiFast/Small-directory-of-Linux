@@ -1,5 +1,6 @@
 # List_of_commands                    
-List of my frequent Linux terminal commands (updating every two days)
+List of my frequent Linux terminal commands (updating every two days)</br>
+I think in near future I write a small book for Linux like "A little about Linux in many ways !"</br>
 
 # Table of Contents:
 - [<b>Main</b>](#main)
