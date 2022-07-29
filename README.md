@@ -512,6 +512,7 @@ Options:</br>
 <img width="600px" height="250px" src="https://user-images.githubusercontent.com/62830326/181817742-1c232161-10c0-465b-b07a-e7372898aefa.png"></br>
  
 Examples of starting DIRB:</br>
+`dirb http://nwcom.info/ -o ~/Desktop/DIRB_scan.txt`</br>
 `dirb <url>/directory` simple test</br>
 `dirb <url> -X .html` testing files with suffics '.html'</br>
 `dirb <url> /usr/share/dirb/wordlists/vulns/apache.txt` testing with list of words from file 'apache.txt'</br>
