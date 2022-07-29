@@ -22,6 +22,7 @@ List of my frequent Linux terminal commands (updating every two days)
     - [Find auxiliary for certain ports (table)](#find_auxiliary_for_ports)
   - [NMAP](#nmap)
     - [ZENMAP](#zenmap)
+  - [DIRB](#dirb)
   - [SCRCPY](#scrcpy)
   - [GHOST](#ghost)
   - [MacChanger](#macchanger)
@@ -391,35 +392,69 @@ Start Metasploit</br>
 
 <table>
   <tr>
+    <td>Ports</td>
+    <td>path</td>
+    <td>name</td>
+    <td>sense</td>
+  </tr>
+  <tr>
     <td>80</td>
     <td>auxiliary/dos/https/wordpress_xmlrpc_dos</td>
     <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>135</td>
+    <td></td>
+    <td></td>
+    <td>Read and do commaands</td>
+  </tr>
+  <tr>
+    <td>137</td>
+    <td></td>
+    <td></td>
+    <td>Searching info in other PC's</td>
+  </tr>
+  <tr>
+    <td>139</td>
+    <td></td>
+    <td></td>
+    <td>Remote control</td>
   </tr>
   <tr>
     <td>445</td>
     <td>auxiliary/scanner/msb/msb_ms17_010</td>
     <td>MS17</td>
+    <td>Shared files</td>
   </tr>
   <tr>
     <td>3389</td>
     <td>auxiliary/scanner/rdp/ms12_020_check</td>
     <td>oRDP</td>
+    <td></td>
   </tr>
   <tr>
     <td>2001</td>
     <td>auxiliary/dos/http/monkey_headers</td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
     <td>3128</td>
     <td>auxiliary/dos/http/squid_range_dos</td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
     <td>8080</td>
     <td>auxiliary/dos/http/cable_haunt_websocket_dos</td>
+    <td></td>
+    <td></td>
   </tr>
   
   
   <tr>
+    <td></td>
     <td></td>
     <td></td>
     <td></td>
@@ -428,6 +463,7 @@ Start Metasploit</br>
 
 **Features of auxiliary:**</br>
 auxiliary/scanner/portscan/tcp - a tcp port scan (set THREADS 50)</br>
+
 
   
   
@@ -440,7 +476,8 @@ auxiliary/scanner/portscan/tcp - a tcp port scan (set THREADS 50)</br>
 ### nmap
 NMAP - scananig all ports and do pings</br>
 nmap - опции адрес</br>
-  
+
+Options:</br>
 <img width="550px" height="300px" src="https://user-images.githubusercontent.com/62830326/178114474-727049dd-e106-4dbe-bb8c-4b1b7203286d.png"></br>
   
 `--reason` what recive nmap from remote system</br>
@@ -448,7 +485,8 @@ nmap - опции адрес</br>
 `-oX <path>` save to file</br> 
 `-A` for find OC</br>
 `-iL` scan ports in txt file</br>
-`-oN` write output in txt file</br> 
+`-oN` write output in txt file</br>
+`-v` show more info</br>
   
 if open port:</br>
 `_http-generator: ` find port with access in web site</br>
@@ -461,6 +499,23 @@ example:</br>
   
 #### zenmap
 I dont know how you can be such a pervert to use this piece ...</br>
+
+
+### dirb
+Scanner web-content</br>
+
+`n` go to next directory</br>
+`a` stop scanning (save stage)</br>
+`r` save statistics of scanning</br>
+  
+Options:</br>
+<img width="600px" height="250px" src="https://user-images.githubusercontent.com/62830326/181817742-1c232161-10c0-465b-b07a-e7372898aefa.png"></br>
+ 
+Examples of starting DIRB:</br>
+`dirb <url>/directory` simple test</br>
+`dirb <url> -X .html` testing files with suffics '.html'</br>
+`dirb <url> /usr/share/dirb/wordlists/vulns/apache.txt` testing with list of words from file 'apache.txt'</br>
+`dirb <url>/secure_url` simple test with SSL</br>
 
   
   
