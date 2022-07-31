@@ -530,8 +530,11 @@ sudo apt update | sudo apt upgrade -y</br>
 sudo apt-get install gvm* -y</br>
 
 `sudo gvm-setup` settle down app, and save password in file</br>
+`gvm-check-setup` check that all download</br>
 `sudo gv-start` start</br>
   `sudo gvm-stop` stop</br>
+
+`sudo rinuser -u _gvm -- gvmd --user=<login> --new-password=<password>` change password</br>
 
 Write http from output to browther, with file password</br>
 
