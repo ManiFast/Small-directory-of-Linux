@@ -504,6 +504,7 @@ I dont know how you can be such a pervert to use this piece ...</br>
 
 ### dirb
 Scanner web-content</br>
+Show hidden paths, files and adresses in url</br>
 
 `n` go to next directory</br>
 `a` stop scanning (save stage)</br>
