@@ -513,15 +513,32 @@ Show hidden paths, files and adresses in url</br>
 Options:</br>
 <img width="600px" height="250px" src="https://user-images.githubusercontent.com/62830326/181817742-1c232161-10c0-465b-b07a-e7372898aefa.png"></br>
  
-Examples of starting DIRB:</br>
+ `-x` extansion (.php, .html)</br>
+ `-o` file where to save</br>
+ 
+ 
+Examples of using DIRB:</br>
 `dirb http://nwcom.info/ -o ~/Desktop/DIRB_scan.txt`</br>
 `dirb <url>/directory` simple test</br>
 `dirb <url> -X .html` testing files with suffics '.html'</br>
 `dirb <url> /usr/share/dirb/wordlists/vulns/apache.txt` testing with list of words from file 'apache.txt'</br>
 `dirb <url>/secure_url` simple test with SSL</br>
 
-  
-  
+### openVAS (GVM)
+sudo apt update | sudo apt upgrade -y</br>
+
+sudo apt-get install gvm* -y</br>
+
+`sudo gvm-setup` settle down app, and save password in file</br>
+`sudo gv-start` start</br>
+  `sudo gvm-stop` stop</br>
+
+Write http from output to browther, with file password</br>
+
+`sudo systemctl status redis-server` check DB</br>
+  `sudo systemctl status redis-server@openvas.service`
+
+-
   
 ### scrcpy
 SCRCPY Framework using for remote controle and emilate touches with output live divese</br>
