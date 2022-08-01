@@ -308,7 +308,8 @@ in VISUAL mode:</br>
  ### config
  [My cfg here](https://github.com/ManiFast/Linux_Config_Backup/blob/main/.vimrc)</br>
  
- `sudo vim ~/.vimrc`
+ `sudo vim ~/.vimrc`</br>
+ `sudo vim .config/nvim/init.vim`</br>
  
 </br>
   
