@@ -251,7 +251,7 @@ Uncompression archving tar:</br>
 ## Software
 
 ### Vim
-`^:`    open vim command line</br>
+`^:`  open vim command line</br>
 `!`   extra ...  !q extra quit</br>
 `w`   save</br>
 `q`   quit</br>
@@ -264,29 +264,21 @@ Uncompression archving tar:</br>
 `h j k l` left down up right</br>
 `a` INSERT after 1 letter</br>
 `A` INSERT in end of line</br>
+
 `o` new line in down and INSERT</br>
 `O` new line in up and INSERT</br>
 
 `gg` go to start of file</br>
 `G` go to end of file</br>
 
-`w` ahead word</br>
-`b` back word</br>
-
 <number>`w` go to 10 word ahead</br>
 
-`/` find word (<b>down</b> from cursor)</br>
-  /555</br>
+`/` find word (<b>down</b> from cursor)</br
 `?` find word (<b>up</b> from cursor)</br>
- 
-`m`<name> set marker (;'\ жэ\)</br>
-  mfirst</br>
-`'`<name> go to marker</br>
-  'first</br>
 
 in VISUAL mode:</br>
 `x` cut text</br>
-`p` paste text</br></br></br>
+`p` paste text</br></br>
 `d` delete</br>
  
 
@@ -310,6 +302,20 @@ in VISUAL mode:</br>
  
  `sudo vim ~/.vimrc`</br>
  `sudo vim .config/nvim/init.vim`</br>
+ 
+ ### nVim
+ `sudo apt install neovim -y` install</br>
+ `sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'`</br>
+`nvim` start</br>
+
+Create config folder:
+`cd .config`</br>
+`mkdir nvim`</br>
+`nvim init.vim` config</br>
+ 
+ https://vimawesome.com/ take plugins</br>
+ 
  
 </br>
   
