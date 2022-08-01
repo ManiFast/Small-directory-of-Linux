@@ -277,6 +277,7 @@ Uncompression archving tar:</br>
 `?` find word (<b>up</b> from cursor)</br>
 
 in VISUAL mode:</br>
+`y` copy text</br>
 `x` cut text</br>
 `p` paste text</br></br>
 `d` delete</br>
