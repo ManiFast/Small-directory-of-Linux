@@ -396,6 +396,10 @@ Start Metasploit</br>
 
 `db_nmap -A <ip> -v` (-v see result)</br>
   `db_nmap -A 192.168.0.106 -v`</br>
+
+#### features
+1. You can type just name of module, you coudn't type all it path. 
+3. You may not ask command "show options" just write "options"
   
 #### find_auxiliary_for_ports  
 
