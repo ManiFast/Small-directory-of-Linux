@@ -417,6 +417,12 @@ Start Metasploit</br>
     <td></td>
   </tr>
   <tr>
+    <td></td>
+    <td>auxiliary/scanner/http/http_version</td>
+    <td>http version</td>
+    <td>HTTP Version Detection</td>
+  </tr>
+  <tr>
     <td>135</td>
     <td></td>
     <td></td>
