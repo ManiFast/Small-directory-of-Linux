@@ -525,9 +525,10 @@ Show hidden paths, files and adresses in url</br>
 Options:</br>
 <img width="600px" height="250px" src="https://user-images.githubusercontent.com/62830326/181817742-1c232161-10c0-465b-b07a-e7372898aefa.png"></br>
  
- `-x` extansion (.php, .html)</br>
+ `-X` extansion (.php, .html)</br>
  `-o` file where to save</br>
  
+ without -X search all extansions</br>
  
 Examples of using DIRB:</br>
 `dirb http://nwcom.info/ -o ~/Desktop/DIRB_scan.txt`</br>
@@ -628,16 +629,33 @@ example:</br>
 `metagoofil -d it-black.ru -l 10 -n 10 -t pdf,dox,xml,xls,docx -o /home/manifast/Desktop/`</br>
   
 ### info_of_emails
-#### theharvester
+#### theHarvester
 Find emails in domen.</br>
+theHarvester is used to gather open source intelligence (OSINT) on a company or
+domain.</br>
 
-`theHarvester -d <domain> -l <count> -f <save path>` </br>
-  `theHarvester -d mail.ru -l 500 -f google -f /home/manifast/Desktop/file` example</br>
-  
+`theHarvester -d <domain> -l <count> -b <search> -f <save path>` </br>
+  `theHarvester -d mail.ru -l 500 -b google -f /home/manifast/Desktop/file` example</br>
+
+`-d` domain (source)</br>
+    anubis, baidu, bing, binaryedge, bingapi, bufferoverun,</br>
+    censys, certspotter, crtsh, dnsdumpster, duckduckgo,</br>
+    fullhunt, github-code, google, hackertarget, hunter, intelx,</br>
+    linkedin, linkedin_links, n45ht, omnisint, otx, pentesttools,</br>
+    projectdiscovery, qwant, rapiddns, rocketreach,</br>
+    securityTrails, spyse, sublist3r, threatcrowd, threatminer,</br>
+    trello, twitter, urlscan, virustotal, yahoo, zoomeye</br>
+    </br>
+`-l` limit</br>
+`-b` searching site</br>
+`-f` file name</br>
+
 #### search_email_collector
 Start Metasploit</br>
 `use auxiliary/gather/search_email_collector` open</br>
 `show options` help</br>
+`set domain <dns> <search>
+  `set domain mipt.ru search_google`</br>
   
 #### Google Hacking
 Use for find login page or enother info</br>
