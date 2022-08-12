@@ -544,9 +544,11 @@ Examples of using DIRB:</br>
 `dirb <url>/secure_url` simple test with SSL</br>
 
 ### openVAS (GVM)
-sudo apt update | sudo apt upgrade -y</br>
+openVAS scanner for vulnerability</br>
 
-sudo apt-get install gvm* -y</br>
+`sudo apt update` && `sudo apt upgrade -y` before</br>
+
+`sudo apt-get install gvm* -y` install</br>
 
 `sudo gvm-setup` settle down app, and save password in file</br>
 `gvm-check-setup` check that all download</br>
@@ -554,6 +556,7 @@ sudo apt-get install gvm* -y</br>
   `sudo gvm-stop` stop</br>
 
 `sudo rinuser -u _gvm -- gvmd --user=<login> --new-password=<password>` change password</br>
+`sudo runuser -u _gvm -- gvmd --create-user=admin2 --new-password=<password` create/reset password</br>
 
 Write http from output to browther, with file password</br>
 
