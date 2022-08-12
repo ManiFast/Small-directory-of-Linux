@@ -555,7 +555,7 @@ openVAS scanner for vulnerability</br>
 `sudo gv-start` start</br>
   `sudo gvm-stop` stop</br>
 
-`sudo rinuser -u _gvm -- gvmd --user=<login> --new-password=<password>` change password</br>
+`sudo runuser -u _gvm -- gvmd --user=<login> --new-password=<password>` change password</br>
 `sudo runuser -u _gvm -- gvmd --create-user=admin2 --new-password=<password` create/reset password</br>
 
 Write http from output to browther, with file password</br>
