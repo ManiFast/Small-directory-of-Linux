@@ -24,6 +24,7 @@ I think in near future I write a small book for Linux like "A little about Linux
   - [NMAP](#nmap)
     - [ZENMAP](#zenmap)
   - [DIRB](#dirb)
+  - [openVAS (GVM)](#openVAS_GVM)
   - [SCRCPY](#scrcpy)
   - [GHOST](#ghost)
   - [MacChanger](#macchanger)
@@ -543,7 +544,7 @@ Examples of using DIRB:</br>
 `dirb <url> /usr/share/dirb/wordlists/vulns/apache.txt` testing with list of words from file 'apache.txt'</br>
 `dirb <url>/secure_url` simple test with SSL</br>
 
-### openVAS (GVM)
+### openVAS_GVM
 openVAS scanner for vulnerability</br>
 
 `sudo apt update` && `sudo apt upgrade -y` before</br>
