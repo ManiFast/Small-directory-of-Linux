@@ -17,7 +17,7 @@ I think in near future I write a small book for Linux like "A little about Linux
   - [VIM](#vim)
     - [Macros](#macros)
     - [Config VIM](#config)
-  - [||| Metasploit |||](#metasploit)
+  - [Metasploit](#Metasploit_Framework)
     - [Search Email Collector](#search_email_collector)
     - [Inbuilt nmap](#inbuilt_nmap)
     - [Find auxiliary for certain ports (table)](#find_auxiliary_for_ports)
@@ -251,7 +251,7 @@ Uncompression archving tar:</br>
 
 ## Software
 
-### Vim
+### VIM
 `^:`  open vim command line</br>
 `!`   extra ...  !q extra quit</br>
 `w`   save</br>
@@ -299,13 +299,13 @@ in VISUAL mode:</br>
  `@`<name> do macros</br>
   `10@mac` - do ten times</br>
  
- ### config
+ ### Config
  [My cfg here](https://github.com/ManiFast/Linux_Config_Backup/blob/main/.vimrc)</br>
  
  `sudo vim ~/.vimrc`</br>
  `sudo vim .config/nvim/init.vim`</br>
  
- ### nVim
+ ### nVIM
  `sudo apt install neovim -y` install</br>
  `sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'`</br>
@@ -322,7 +322,7 @@ Create config folder:
 </br>
   
   
-### metasploit
+### Metasploit_Framework
 <b>Exploit<b> - код для уязвимости</br>
 <b>Payload</b> - устанавливает соединение, выполняет скрипты)</br>
   Sigles - Самостоятельный файл (объединяет два модуля)</br>
@@ -398,7 +398,7 @@ Start Metasploit</br>
 `db_nmap -A <ip> -v` (-v see result)</br>
   `db_nmap -A 192.168.0.106 -v`</br>
 
-#### features
+#### Features
 1. You can type just name of module, you coudn't type all it path. 
 3. You may not ask command "show options" just write "options"
   
@@ -493,7 +493,7 @@ auxiliary/scanner/portscan/tcp - a tcp port scan (set THREADS 50)</br>
   
   
   
-### nmap
+### Nmap
 NMAP - scananig all ports and do pings</br>
 nmap - опции адрес</br>
 
@@ -621,7 +621,7 @@ Change IP</br>
   
   
 ### extract_info
-#### exiftool
+#### ExifTool
 Using for showing all info of file (meta). For ex. find name of creator.<br>
 
 `sudo apt-get install exiftool` - install</br>
@@ -638,7 +638,7 @@ Using for download all file from site.</br>
 example:</br>
 `metagoofil -d it-black.ru -l 10 -n 10 -t pdf,dox,xml,xls,docx -o /home/manifast/Desktop/`</br>
   
-### info_of_emails
+### Info_of_emails
 #### theHarvester
 Find emails in domen.</br>
 theHarvester is used to gather open source intelligence (OSINT) on a company or
