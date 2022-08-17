@@ -564,6 +564,11 @@ Write http from output to browther, with file password</br>
 `sudo systemctl status redis-server` check DB</br>
   `sudo systemctl status redis-server@openvas.service`
 
+`sudo gvm-feed-update` - update</br>
+
+`sudo greenbone-feed-sync --type GVMD_DATA`
+`sudo greenbone-feed-sync --type CERT` </br>
+
 -
   
 ### scrcpy
