@@ -44,6 +44,9 @@ I think in near future I write a small book for Linux like "A bit about Linux in
   - [Shared folder](#shared_folder)
   - [Update Linux (Kali)](#update)
   - [SSH](#ssh)
+  - [Linux Desktop Environments](#linux_desktop_environments)
+    - [KDE](#kde)
+    - [xfce](#xfce)
   
 - [<b>Features</b>](#features_of_linux)
   - [APT remove](#apt-remove)
@@ -724,11 +727,12 @@ Use for find login page or enother info</br>
 </br>
 
 ## ssh
-`ssh-keygen -t ed25519 -C "your_email@.com"`</br>
+`ssh-keygen -t ed25519 -C "your_email@.com"`</br></br>
 
-</br>
+## linux_desktop_environments
+### KDE
 
-
+### xfce
 
 
 
