@@ -23,7 +23,7 @@ I think in near future I write a small book for Linux like "A little about Linux
     - [Find auxiliary for certain ports (table)](#find_auxiliary_for_ports)
   - [NMAP](#nmap)
     - [ZENMAP](#zenmap)
-  - [DIRB](#dirb)
+  - [DIRB](#dirb) 
   - [openVAS (GVM)](#openVAS_GVM)
   - [SCRCPY](#scrcpy)
   - [GHOST](#ghost)
