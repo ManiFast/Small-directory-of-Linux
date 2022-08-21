@@ -1,6 +1,6 @@
 # List_of_commands            
 List of my frequent Linux terminal commands (updating every two days)</br>
-I think in near future I write a small book for Linux like "A little about Linux in many ways !"</br>
+I think in near future I write a small book for Linux like "A bit about Linux in many ways !"</br>
 
 # Table of Contents:
 - [<b>Main</b>](#main)
@@ -17,18 +17,18 @@ I think in near future I write a small book for Linux like "A little about Linux
   - [VIM](#vim)
     - [Macros](#macros)
     - [Config VIM](#config)
-  - [Metasploit](#Metasploit_Framework)
+  - [Metasploit](#metasploit_framework)
     - [Search Email Collector](#search_email_collector)
     - [Inbuilt nmap](#inbuilt_nmap)
     - [Find auxiliary for certain ports (table)](#find_auxiliary_for_ports)
   - [NMAP](#nmap)
     - [ZENMAP](#zenmap)
   - [DIRB](#dirb) 
-  - [openVAS (GVM)](#openVAS_GVM)
+  - [openVAS (GVM)](#openvas_gvm)
   - [SCRCPY](#scrcpy)
   - [GHOST](#ghost)
   - [MacChanger](#macchanger)
-  - [Proxychain](#proxychain)
+  - [Proxychains](#proxychains)
   - [AutoTor](#auto_tor)
   - [Extracting information from metadata](#extract_info)
     - [ExifTool](#exiftool)
@@ -38,17 +38,17 @@ I think in near future I write a small book for Linux like "A little about Linux
     - [Search Email Collector](#search_email_collector)
     - [Maltego](#maltego)
 
-- [<b>Root</b>](#root)
-- [<b>Permission</b>](#permisson)
+- [<b>Linux</b>](#linux)
+  - [Root](#root)
+  - [Permission](#permisson)
+  - [Shared folder](#shared_folder)
+  - [Update Linux (Kali)](#update)
+  - [SSH](#ssh)
+  
+- [<b>Features</b>](#features_of_linux)
+  - [APT remove](#apt-remove)
 
-- [<b>Shared folder</b>](#shared_folder)
-- [<b>Update Linux (Kali)](#update)
-- [<b>SSH</b>](#ssh)
-  
-- [<b>Features</b>](#features)
-  - [<b>APT remove</b>](#apt-remove)
-  
-  - [<b>Tricks</b>](#tricks)
+- [<b>Tricks</b>](#tricks)
 ---
 ## Main
 ### Commands
@@ -124,14 +124,6 @@ I think in near future I write a small book for Linux like "A little about Linux
   `locate <app>` where is program locate</br>
   
   
-  
-  
-  -------------------------------------------------------------------------------------------------------------
-  
-  
-  
-  
- 
  ### Logs
  
  `/var/log` logs</br>
@@ -316,13 +308,11 @@ Create config folder:
 `mkdir nvim`</br>
 `nvim init.vim` config</br>
  
- https://vimawesome.com/ take plugins</br>
+ https://vimawesome.com/ take plugins</br></br>
  
  
-</br>
-  
-  
-### Metasploit_Framework
+ 
+### Metasploit_framework
 <b>Exploit<b> - код для уязвимости</br>
 <b>Payload</b> - устанавливает соединение, выполняет скрипты)</br>
   Sigles - Самостоятельный файл (объединяет два модуля)</br>
@@ -392,7 +382,7 @@ Start Metasploit</br>
 `show options` help</br>
   
   
-#### inbuilt nmap
+#### inbuilt_nmap
 `help db_nmap` help</br>
 
 `db_nmap -A <ip> -v` (-v see result)</br>
@@ -669,7 +659,7 @@ domain.</br>
 Start Metasploit</br>
 `use auxiliary/gather/search_email_collector` open</br>
 `show options` help</br>
-`set domain <dns> <search>
+`set domain <dns> <search>`
   `set domain mipt.ru search_google`</br>
   
 #### Google Hacking
@@ -682,12 +672,17 @@ Use for find login page or enother info</br>
   
   
   
-  
-  
-  
-  
-  ------------------------------------------------------------------------------------------
-  
+
+
+
+
+
+
+
+
+
+# Linux  
+
 ## Root
 `sudo su`</br>
 `sudo -i`</br>
@@ -733,14 +728,24 @@ Use for find login page or enother info</br>
 
 </br>
 
-## Features
-### apt-remove</br>
+
+
+
+
+
+
+# Features_of_linux
+## apt-remove</br>
 <b>Удаление ненужных зависимостей:</b></br>
 `sudo apt autoremove`</br>
 
----
 
-### Tricks</br>
+
+
+
+
+
+# Tricks</br>
 если нажать tab в имени которое было оно само допишет</br>
 `ls -l && echo "Stas"`    если одно не выполнетеся остальное тоже</br>
 `ls -l; echo "Stas"`   добавить много команд</br>
