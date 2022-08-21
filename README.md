@@ -730,8 +730,11 @@ Use for find login page or enother info</br>
 `ssh-keygen -t ed25519 -C "your_email@.com"`</br></br>
 
 ## linux_desktop_environments
-### KDE
+![Screenshot 2022-08-21 144330](https://user-images.githubusercontent.com/62830326/185785217-6e46fae4-c196-47d1-8847-75a7f47bda4c.png)</br></br>
 
+
+### KDE
+`sudo apt install kali-defaults kali-root-login desktop-base kde-plasma-desktop`
 ### xfce
 
 
