@@ -722,7 +722,14 @@ Use for find login page or enother info</br>
 
 ## Update
 Обновить Kali:</br>
-`sudo apt update && sudo apt full-upgrade -y && sudo reboot -f`</br>
+`sudo apt update && sudo apt full-upgrade -y && sudo reboot -f`</br></br>
+
+/etc/apt/sources.list </br>
+
+`deb http://http.kali.org/kali kali-rolling main non-free contrib
+deb-src http://http.kali.org/kali kali-rolling main non-free contrib`
+
+
 
 </br>
 
@@ -731,6 +738,10 @@ Use for find login page or enother info</br>
 
 ## linux_desktop_environments
 ![Screenshot 2022-08-21 144330](https://user-images.githubusercontent.com/62830326/185785217-6e46fae4-c196-47d1-8847-75a7f47bda4c.png)</br></br>
+
+`sudo tasksel` select startup enviroments</br>
+![image-104-768x579](https://user-images.githubusercontent.com/62830326/185799739-4512aefe-d079-4c7c-a422-b90f3b2d1e1c.png)
+
 
 
 ### KDE
