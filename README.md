@@ -47,6 +47,7 @@ I think in near future I write a small book for Linux like "A bit about Linux in
   - [Linux Desktop Environments](#linux_desktop_environments)
     - [KDE](#kde)
     - [xfce](#xfce)
+  - [Config bash](#config_bash)
   
 - [<b>Features</b>](#features_of_linux)
   - [APT remove](#apt-remove)
@@ -748,7 +749,10 @@ deb-src http://http.kali.org/kali kali-rolling main non-free contrib`
 `sudo apt install kali-defaults kali-root-login desktop-base kde-plasma-desktop`
 ### xfce
 
-
+## config_bash
+Paths:</br>
+`/etc/bash.bashrc`
+`/root/.bashrc`
 
 
 
