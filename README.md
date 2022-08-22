@@ -17,6 +17,7 @@ I think in near future I write a small book for Linux like "A bit about Linux in
   - [VIM](#vim)
     - [Macros](#macros)
     - [Config VIM](#config)
+  - [neo VIM](#neo_vim)
   - [Metasploit](#metasploit_framework)
     - [Search Email Collector](#search_email_collector)
     - [Inbuilt nmap](#inbuilt_nmap)
@@ -301,7 +302,11 @@ in VISUAL mode:</br>
  `sudo vim ~/.vimrc`</br>
  `sudo vim .config/nvim/init.vim`</br>
  
- ### nVIM
+ 
+ 
+ 
+ 
+ ## neo_vim
  `sudo apt install neovim -y` install</br>
  `sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'` write this in directory ~/.config/nvim</br>
@@ -329,7 +334,11 @@ in <b>options.txt</b> file</br>
   `:h 'guicursor'>` or u can type `:h guic<tab>`</br>
 `:set <parametr>=<value>`</br>
   `:set guicursor=`</br>
+  
+-
 
+
+ 
  
  
  
