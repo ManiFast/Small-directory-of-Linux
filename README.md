@@ -634,6 +634,10 @@ MacChanger using for generate fake MAC adress.</br>
 ### proxychains
 path `locate proxychains`</br>
     `sudo vim etc/proxychains.conf`</br>
+    
+![photo_2022-08-22_16-29-46](https://user-images.githubusercontent.com/62830326/185910995-e88aaf18-47a4-485a-a6e5-677fb755a64f.jpg)
+ 
+    
 
 ### auto_tor
 Change IP</br>
@@ -772,7 +776,10 @@ deb-src http://http.kali.org/kali kali-rolling main non-free contrib`
 
 
 ### KDE
-`sudo apt install kali-defaults kali-root-login desktop-base kde-plasma-desktop`
+`sudo apt install kali-defaults kali-root-login desktop-base kde-plasma-desktop` </br>
+
+![photo_2022-08-22_16-29-22](https://user-images.githubusercontent.com/62830326/185910850-61b5d180-adeb-4500-a600-be5aeee3a380.jpg)
+
 ### xfce
 
 ## config_bash
