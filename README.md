@@ -751,8 +751,8 @@ deb-src http://http.kali.org/kali kali-rolling main non-free contrib`
 
 ## config_bash
 Paths:</br>
-`/etc/bash.bashrc`
-`/root/.bashrc`
+`/etc/bash.bashrc`</br>
+`/root/.bashrc`</br>
 
 
 
