@@ -304,15 +304,32 @@ in VISUAL mode:</br>
  ### nVIM
  `sudo apt install neovim -y` install</br>
  `sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
-       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'`</br>
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'` write this in directory ~/.config/nvim</br>
 `nvim` start</br>
 
 Create config folder:
-`cd .config`</br>
+`cd ~/.config/`</br>
 `mkdir nvim`</br>
-`nvim init.vim` config</br>
- 
- https://vimawesome.com/ take plugins</br></br>
+`nvim nvim/init.vim` config</br>
+and paste config here</br>
+
+`sudo apt install git`</br>
+`:PlugInstall` write this in nvim command cmd</br>
+
+https://vimawesome.com/ set plugins here</br></br>
+
+![photo_2022-08-22_10-23-10](https://user-images.githubusercontent.com/62830326/185845216-3a2e8029-61ad-45c6-ba29-540838ee8c33.jpg)
+
+![Screenshot 2022-08-22 102500](https://user-images.githubusercontent.com/62830326/185845363-3a761231-8813-42fd-8934-275b6b7f7065.png)
+
+Setting nvim:</br>
+in <b>options.txt</b> file</br>
+
+`:h <what find>` find in all setting in nvim</br>
+  `:h 'guicursor'>` or u can type `:h guic<tab>`</br>
+`:set <parametr>=<value>`</br>
+  `:set guicursor=`</br>
+
  
  
  
