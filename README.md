@@ -26,6 +26,7 @@ I think in near future I write a small book for Linux like "A bit about Linux in
     - [ZENMAP](#zenmap)
   - [DIRB](#dirb) 
   - [openVAS (GVM)](#openvas_gvm)
+  - [Wireshark](#wireshark)
   - [SCRCPY](#scrcpy)
   - [GHOST](#ghost)
   - [MacChanger](#macchanger)
@@ -590,6 +591,9 @@ Write http from output to browther, with file password</br>
 `sudo greenbone-feed-sync --type CERT` </br>
 
 -
+  
+### Wireshark
+Sniffers - тюхать
   
 ### scrcpy
 SCRCPY Framework using for remote controle and emilate touches with output live divese</br>
