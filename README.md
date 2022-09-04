@@ -14,7 +14,7 @@ I think in near future I write a small book for Linux like "A bit about Linux in
 - [<b>BASH scripting</b>](#bash_scripting)
 - [<b>Hot keys</b>](#keys)
 - [<b>Software</b>](#software)
-  - [VIM](#vim)
+  - [VIM/nVIM](#vim)
     - [Macros](#macros)
     - [Config VIM](#config)
   - [neo VIM](#neo_vim)
