@@ -526,7 +526,7 @@ Options:</br>
 `-oX <path>` save to file</br> 
 `-A` for find OC</br>
 `-iL` scan ports in txt file</br>
-`-oN` write output in txt file</br>
+`-o` write output in txt file</br>
 `-v` show more info</br>
   
 if open port:</br>
