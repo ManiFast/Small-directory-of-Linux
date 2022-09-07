@@ -31,7 +31,7 @@ I think in near future I write a small book for Linux like "A bit about Linux in
   - [GHOST](#ghost)
   - [MacChanger](#macchanger)
   - [Proxychains](#proxychains)
-  - [AutoTor](#auto_tor)
+  - [AutoTor](#auto_tor) 
   - [Extracting information from metadata](#extract_info)
     - [ExifTool](#exiftool)
     - [MetaGooFil](#metagoofil)
