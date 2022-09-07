@@ -63,6 +63,7 @@ I think in near future I write a small book for Linux like "A bit about Linux in
 `Super+Space`     change language keyboard</br>
 `ls`     show files and folders</br>
   `ls -l -a`        -l beauti   -a  all files</br>
+  `ls -F` -F show folders and files with "/"<br>
 `touch`     create file</br>
 `cd`       previous path</br>
 `cat`    output file</br>
