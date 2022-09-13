@@ -529,6 +529,8 @@ Options:</br>
 `-iL` scan ports in txt file</br>
 `-o` write output in txt file</br>
 `-v` show more info</br>
+`-Pn` if firewall if running</br>
+`-sV` more information about ports</br>
   
 if open port:</br>
 `_http-generator: ` find port with access in web site</br>
