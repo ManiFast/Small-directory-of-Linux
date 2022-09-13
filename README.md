@@ -541,6 +541,9 @@ example:</br>
 
 `sudo nmap -A --reason -v 192.168.0.106 -p 0-54535 -oX /home/manifast/Desktop/scan.xml`</br>
   
+DOCS:
+https://docs.metasploit.com/docs/pentesting/metasploit-guide-smb.html
+
 #### zenmap
 I dont know how you can be such a pervert to use this piece ...</br>
 
