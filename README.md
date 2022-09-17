@@ -130,6 +130,8 @@ I think in near future I write a small book for Linux like "A bit about Linux in
   
   `locate <app>` where is program locate</br>
   
+  `fakeroot` fake root in kali</br>
+  
   
  ### Logs
  
