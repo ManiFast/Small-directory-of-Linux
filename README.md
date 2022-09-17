@@ -132,6 +132,7 @@ I think in near future I write a small book for Linux like "A bit about Linux in
   
   `fakeroot` fake root in kali</br>
   
+  `sudo apt search` search packages for install</br>
   
  ### Logs
  
