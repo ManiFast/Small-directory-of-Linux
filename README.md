@@ -53,9 +53,14 @@ I think in near future I write a small book for Linux like "A bit about Linux in
   
 - [<b>Features</b>](#features_of_linux)
   - [APT remove](#apt-remove)
+  - [Set emoji](#emoji)
 
 - [<b>Tricks</b>](#tricks)
+
+
 ---
+
+
 ## Main
 ### Commands
 `!$`    last argument (напр mkdir ss/sdf)</br>
@@ -807,6 +812,10 @@ Paths:</br>
 <b>Удаление ненужных зависимостей:</b></br>
 `sudo apt autoremove`</br>
 
+# Emoji
+![image](https://user-images.githubusercontent.com/62830326/191039766-9b7ce2ba-e814-46e0-9c45-53cb131e9736.png)</br>
+`sed -i 's/prompt_symbol=㉿/prompt_symbol=💻/' ~/.zshrc` for user</br>
+`sed -i 's/prompt_symbol=㉿/prompt_symbol=💀/' ~/.zshrc` for root</br>
 
 
 
@@ -820,3 +829,4 @@ Paths:</br>
 `truncate -s 0 file`     clear file</br>
 `| column -t`    удобно вывести по колонкам</br>
 `sudo rm -R /`    Kill Linux</br>
+`fakeroot` fakeroot</br>
