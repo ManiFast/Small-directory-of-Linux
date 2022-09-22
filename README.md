@@ -623,6 +623,7 @@ site for help find ip https://www.shodan.io/ in search "android debug bridge"</b
   `scrcpy -e` (use TCP/IP device)</br>
 
 `adb kill-server` kill port, if failed to connect</br>
+`adb start-server <port 5555>`</br>
 `adb tcpip <port 9999>` create port</br>
 
 
