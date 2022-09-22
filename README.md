@@ -640,6 +640,17 @@ after ghost if connction successeful better use SCRCPY Framework :D</br>
 
 `connect <ip>`</br>
 `help`</br>
+
+Install:</br>
+`git clone https://github.com/EntySec/Ghost.git`</br>
+`cd Ghost`</br>
+`chmod +x setup.py`</br></br>
+if u catch an error type:</br>
+`pip3 install --upgrade pip`</br>
+`pip3 install setuptools`</br>
+and added this line on top of setup.py "#!/usr/bin/python3"</br></br>
+`ghost`</br>
+
   
 ### macchanger
 MacChanger using for generate fake MAC adress.</br>
