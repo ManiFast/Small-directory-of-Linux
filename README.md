@@ -439,7 +439,7 @@ Start Metasploit</br>
     <td>Ports</td>
     <td>path</td>
     <td>name</td>
-    <td>sense</td>
+    <td>sense</td> 
   </tr>
   <tr>
     <td>80</td>
