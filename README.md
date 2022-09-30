@@ -842,10 +842,10 @@ Paths:</br>
 `| column -t`    удобно вывести по колонкам</br>
 `sudo rm -R /`    Kill Linux</br>
 `fakeroot` fakeroot</br></br>
+`Ctrl + Alt + стрелки`      переключает раб стол</br>
+`Ctrl + h` замена backspace</br>
 
 Контроль в терминале:</br></br>
-
-`Ctrl + Alt + стрелки`      переключает раб стол</br>
 
 `стрелки`       передвигаем курсор</br>
 `Shift + стрелки`     листаем терминал</br>
