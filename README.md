@@ -841,4 +841,14 @@ Paths:</br>
 `truncate -s 0 file`     clear file</br>
 `| column -t`    удобно вывести по колонкам</br>
 `sudo rm -R /`    Kill Linux</br>
-`fakeroot` fakeroot</br>
+`fakeroot` fakeroot</br></br>
+
+Контроль в терминале:</br></br>
+
+`Ctrl + Alt + стрелки`      переключает раб стол</br>
+
+`стрелки`       передвигаем курсор</br>
+`Shift + стрелки`     листаем терминал</br>
+`Shift + PageUp/PageDown`         листаем с отступом</br>
+`Ctrl + PageUp/PageDown`     переключаем закладки</br>
+`Ctrl + Shift + PageUp/PageDown`    перемещает закладки</br></br>
