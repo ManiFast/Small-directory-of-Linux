@@ -766,19 +766,19 @@ Use for find login page or enother info</br>
 </br>
 
 ## Shared_folder</br>
-поставить двойное соединение</br>
-создать папку (auto amount, permanent)</br>
+make a double connection</br>
+create directory(folder) (auto amount, permanent)</br>
 
-<b>подключить CD Tools:</b>
-если само не открылось перейти в</br>
+<b>turn on CD Tools:</b>
+if it didnt open automaticly, go to</br>
 `cd /media/user/VBox_GAs_6.1.34/VBox_GAs_6.1.34/`</br>
 `./autorun.sh`</br>
 `sudo apt update`</br>
 `sudo apt install update`</br>
 
-в консоли:</br>
-`sudo usermod -a -G vboxsf <user name>`   создание прав</br>
-`sudo apt-get install gcc make perl`    не знаю но надо</br>
+in terminal:</br>
+`sudo usermod -a -G vboxsf <user name>`   create rights</br>
+`sudo apt-get install gcc make perl`    dnt know but must paste</br>
 
 </br>
 
@@ -822,10 +822,10 @@ Paths:</br>
 
 # Features_of_linux
 ## apt-remove</br>
-<b>Удаление ненужных зависимостей:</b></br>
+<b>Delete unuseful dependencies(зависимостей):</b></br>
 `sudo apt autoremove`</br>
 
-# Emoji
+# Emoji in promt
 ![image](https://user-images.githubusercontent.com/62830326/191039766-9b7ce2ba-e814-46e0-9c45-53cb131e9736.png)</br>
 `sed -i 's/prompt_symbol=㉿/prompt_symbol=💻/' ~/.zshrc` for user</br>
 `sed -i 's/prompt_symbol=㉿/prompt_symbol=💀/' ~/.zshrc` for root</br>
@@ -836,23 +836,23 @@ Paths:</br>
 
 
 # Tricks</br>
-если нажать tab в имени которое было оно само допишет</br>
-`ls -l && echo "Stas"`    если одно не выполнетеся остальное тоже</br>
-`ls -l; echo "Stas"`   добавить много команд</br>
+if you press tab in the name that was, it will add itself</br>
+`ls -l && echo "Stas"`    if one fails, the next too</br>
+`ls -l; echo "Stas"`   add many commands</br>
 `truncate -s 0 file`     clear file</br>
-`| column -t`    удобно вывести по колонкам</br>
+`| column -t`    convenient to display in columns (удобно вывести по колонкам)</br>
 `sudo rm -R /`    Kill Linux</br>
 `fakeroot` fakeroot</br></br>
-`Ctrl + Alt + стрелки`      переключает раб стол</br>
-`Ctrl + h` замена backspace</br>
+`Ctrl + Alt + стрелки`      switch desktop</br>
+`Ctrl + h` replacement (замена) backspace</br>
 
-Контроль в терминале:</br></br>
+Control in the terminal:</br></br>
 
-`стрелки`       передвигаем курсор</br>
-`Shift + стрелки`     листаем терминал</br>
-`Shift + PageUp/PageDown`         листаем с отступом</br>
-`Ctrl + PageUp/PageDown`     переключаем закладки</br>
-`Ctrl + Shift + PageUp/PageDown`    перемещает закладки</br></br>
+`стрелки`       moving cursor</br>
+`Shift + стрелки`     list terminal</br>
+`Shift + PageUp/PageDown`         list with spacees</br>
+`Ctrl + PageUp/PageDown`     switch bookmarks</br>
+`Ctrl + Shift + PageUp/PageDown`    moving bookmarks</br></br>
 
 
 Do u like it ? Star repo and share it with your friends!)
