@@ -42,6 +42,9 @@ I think in near future I write a small book for Linux like "A bit about Linux in
     - [Maltego](#maltego)
 
 - [<b>Linux</b>](#linux)
+  - [Distributions](#Distributions)
+    - [Debian](#debian)
+    - [Arch](#arch)
   - [Root](#root)
   - [Permission](#permisson)
   - [Shared folder](#shared_folder)
@@ -747,6 +750,32 @@ Use for find login page or enother info</br>
 
 
 # Linux  
+
+## Distributions
+
+### Debian
+*apt* is a packet manager in Debian</br>
+
+func:</br>
+apt install <name of packet></br>
+apt remove <name of packet></br>
+apt search <name of packet></br>
+
+`sudo apt update -y $$ sudo apt upgrade -y` full update Linux</br>
+  `-y` without ask</br>
+  
+
+### Arch
+*pacman* is a packet manager in Arch</br>
+
+func:</br>
+sudo pacman -S <name of packet>          install</br>
+sudo pacman -Ss <name of packet>        search</br>
+sudo pacman -R <name of packet>    remove</br>
+sudo pacman -R <name of packet>    remove expact config (dependencies)</br>
+sudo pacman -Rns <name of packet>         remove with all config dependencies</br>
+
+`sudo pacman -Syu` update Linux</br>
 
 ## Root
 `sudo su`</br>
