@@ -550,14 +550,18 @@ if open port:</br>
  
 example:</br>
 `sudo nmap -A --reason <ip> -oX <path>.xml`</br>
-
 `sudo nmap -A --reason -v 192.168.0.106 -p 0-54535 -oX /home/manifast/Desktop/scan.xml`</br>
+`sudo nmap -A -T4 -v <ip>`</br>
+
   
 DOCS:
 https://docs.metasploit.com/docs/pentesting/metasploit-guide-smb.html
 
 #### zenmap
 I dont know how you can be such a pervert to use this piece ...</br>
+
+![image](https://user-images.githubusercontent.com/62830326/195830334-dde4ce0a-4e85-43ef-935e-cc9dc37663d5.png)
+
 
 
 ### dirb
