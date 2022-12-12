@@ -67,81 +67,84 @@ I think in near future I write a small book for Linux like "A bit about Linux in
 
 ## Main
 ### Commands
-`!$`    last argument (напр mkdir ss/sdf)</br>
-`!!`    previous comand</br>
+`!$`    last argument (напр mkdir ss/sdf)</br>
+`!!`    previous comand</br>
 `Super+Space`     change language keyboard</br>
 `ls`     show files and folders</br>
-  `ls -l -a`        -l beauti   -a  all files</br>
-  `ls -F` -F show folders and files with "/"<br>
-`touch`     create file</br>
-`cd`       previous path</br>
-`cat`    output file</br>
-`vim`    change file</br>
-`htop`     about system</br>
-`ps`    what running</br>
+  `ls -l -a`    -l beauty   -a  all files</br>
+  `ls -F`    -F show folders and files with "/"<br>
+`touch`    create file</br>
+`cd`    previous path</br>
+`cat`    output file</br>
+`vim`    change file</br>
+`htop`    about system</br>
+`ps`    what running</br>
 
-`mkdir (-p)`      create dir, p-if that dir isnt found, create !</br>
-`rmdir`    remove dir</br>
-`rm -R`     remove not empty dir</br>
+`mkdir (-p)`    create dir, p-if that dir isnt found, create !</br>
+`rmdir`    remove dir</br>
+`rm -R`    remove not empty dir</br>
 
-`mv`    rename or move</br>
-`wc`    word count</br>
-  `wc file.txt -l/w`     show lines or words in file </br>
-  `grep "[A-Za-z]*stas" -E ./*`  example, find ...s/Stas in this folder
-`sort`   sort to symbols without change</br>
-  `sort -n`    sort by names</br>
+`mv`    rename or move</br>
+`wc`    word count</br>
+  `wc file.txt -l/w`    show lines or words in file </br>
+  `grep "[A-Za-z]*stas" -E ./*`    example, find ...s/Stas in this folder
+`sort`    sort to symbols without change</br>
+  `sort -n`    sort by names</br>
 
-`cut -d ">" -f 3 file.txt`   divorse each column on end ">" and output only third lines in file.txt</br>
-  `cut -d ">" -f 3 countries.txt | sort -n`   example of sorting</br>
+`cut -d ">" -f 3 file.txt`    divorse each column on end ">" and output only third lines in file.txt</br>
+  `cut -d ">" -f 3 countries.txt | sort -n`    example of sorting</br>
 
 
-`find`     find file</br>
+`find`    find file</br>
   `find /home -name "file*.txt"`</br>
 
-`grep <-i> <word> <file/path>`   find in folders or files, 'i' = ignore case count Aa</br>
-  `grep -E  "@[A-Za-z]*.com" file.txt`       find certain fraze in file</br>
-  `grep "[A-Za-z0-9]*@gmail.com" email.txt`  example, find all email in end @gmail.com</br>
+`grep <-i> <word> <file/path>`    find in folders or files, 'i' = ignore case count Aa</br>
+  `grep -E  "@[A-Za-z]*.com" file.txt`    find certain fraze in file</br>
+  `grep "[A-Za-z0-9]*@gmail.com" emails.txt`    example, find all email in end @gmail.com</br>
    [A-Z] [a-z] [0-9] @ _ - . </br>
 
-`ln`       links (like shortcut)</br>
-  `ln -s /home/Desktop/Dir`      link to folder</br>
-  `ln /home/Desktop/file.txt`   create duplicate of file</br>
+`ln`    links (like shortcut)</br>
+  `ln -s /home/Desktop/Dir`    link to folder</br>
+  `ln /home/Desktop/file.txt`    create duplicate of file</br>
 
 
-`date`    show date (with args)</br>
-  `date +"%H:%M"`  11:32</br>
+`date`    show date (with args)</br>
+  `date +"%H:%M"`    11:32, certain cut date</br>
   
-`> >>` clear and rewrite/just write in end</br>
-`2>` catch errors</br>
-  `grep cats animals/* 2> errors.txt` find strings with word 'cats' in all files in folder 'animals' and errors write in 'errors.txt' file</br>
-  `grep aqua colors/* > good.txt 2> nogood.txt` write noerrors msg in 'good.txt' and errors msg in nogood.txt</br>
-  `/dev/null` always empty folder, like 'black hole')</br>
-  `2>>` add errors in file, like '>>'</br>
-`&>` catch errors and noerrors messages (because if you write '>' saving only noerrors messages)</br>
+`> >>`    clear and rewrite/just write at the end</br>
+`2>`    catch errors</br>
+  `grep cats animals/* 2> errors.txt`    find strings with word 'cats' in all files in folder 'animals' and errors write in 'errors.txt' file</br>
+  `grep aqua colors/* > good.txt 2> nogood.txt`    write noerrors msg in 'good.txt' and errors msg in nogood.txt</br>
+  `/dev/null`    always empty folder, like 'black hole')</br>
+  `2>>`    add errors in file, like '>>'</br>
+`&>`    catch errors and noerrors messages (because if you write '>' saving only noerrors messages)</br>
  
- `bg` show background process</br>
- `fg` return to background</br>
+`bg`    show background process</br>
+`fg`    return to background</br>
  
- `top` task manager</br>
- `ps` list of procces</br>
-    `ps -aux` show all in all</br>
-    ps -aux | grep manifast    find strings with this word</br>
+`top` task manager</br>
+`ps` list of procces</br>
+  `ps -aux`    show all in all</br>
+  `ps -aux | grep manifast`    find strings with this word</br>
  
   `whoami` what user</br>
  `id` which groups u consist</br>
-    `id root` show id root</br>
+    `id root` show id root</br>
     
-  `last` who enter in pc</br>
-  `who` who now use pc</br>
-  `w` what all users do</br>
+`last` who enter in pc</br>
+`who` who now use pc</br>
+`w` what all users do</br>
   
-  `su` <user> change user</br>
+`su` <user> change user</br>
   
-  `locate <app>` where is program locate</br>
+`locate <app>` where is program locate</br>
   
   `fakeroot` fake root in kali</br>
   
   `sudo apt search` search packages for install</br>
+  
+  `ps` show processes
+ 
   
  ### Logs
  
