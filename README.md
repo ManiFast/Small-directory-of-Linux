@@ -6,6 +6,7 @@ I think in near future I write a small book for Linux like "A bit about Linux in
 # Table of Contents:
 - [<b>Main</b>](#main)
   - [Commands](#commands)
+  - [KeyBinds](#keybinds)
   - [Logs](#logs)
   - [Input text in file](#input_text_in_file)
   - [Users and groups](#users)
@@ -125,11 +126,12 @@ I think in near future I write a small book for Linux like "A bit about Linux in
 `top` task manager</br>
 `ps` list of procces</br>
   `ps -aux`    show all in all</br>
+  `ps -ax`
   `ps -aux | grep manifast`    find strings with this word</br>
  
-  `whoami` what user</br>
- `id` which groups u consist</br>
-    `id root` show id root</br>
+`whoami` what user</br>
+`id` which groups u consist</br>
+  `id root` show id root</br>
     
 `last` who enter in pc</br>
 `who` who now use pc</br>
@@ -139,20 +141,36 @@ I think in near future I write a small book for Linux like "A bit about Linux in
   
 `locate <app>` where is program locate</br>
   
-  `fakeroot` fake root in kali</br>
+`fakeroot` fake root in kali</br>
   
-  `sudo apt search` search packages for install</br>
-  
-  `ps` show processes
+`sudo apt search` search packages for install</br>
  
+### Keybinds
+
+In the Terminal:</br></br>
+Move:</br>
+`стрелки`       moving cursor</br>
+`Shift + стрелки`     list terminal</br>
+`Shift + PageUp/PageDown`         list with spacees</br>
+`Ctrl + PageUp/PageDown`     switch bookmarks</br>
+`Ctrl + Shift + PageUp/PageDown`    moving bookmarks</br></br>
+
+Close:</br>
+`Ctrl + D` end of file input</br></br>
+`Ctrl + C` close (kill), OC send signal 'SIGINT'</br>
+`Ctrl + /` close too, OC send signal 'SIGQUIT'</br>
+`Ctrl + Z` sleep</br>
+`Ctrl + S` pause output</br>
+`Ctrl + Q` resume output</br>
+
   
- ### Logs
+### Logs
  
- `/var/log` logs</br>
- `sudo dmesg` log of Linux core</br>
- `/etc/passwd` system accaunts</br>
- `/etc/shadow` all shifered passwords</br>
- `/etc/group`  all users groups (f.e how can use sudo)</br>
+`/var/log` logs</br>
+`sudo dmesg` log of Linux core</br>
+`/etc/passwd` system accaunts</br>
+`/etc/shadow` all shifered passwords</br>
+`/etc/group`  all users groups (f.e how can use sudo)</br>
  
   
 ### Input_text_in_file
@@ -884,13 +902,7 @@ if you press tab in the name that was, it will add itself</br>
 `Ctrl + Alt + стрелки`      switch desktop</br>
 `Ctrl + h` replacement (замена) backspace</br>
 
-Control in the terminal:</br></br>
 
-`стрелки`       moving cursor</br>
-`Shift + стрелки`     list terminal</br>
-`Shift + PageUp/PageDown`         list with spacees</br>
-`Ctrl + PageUp/PageDown`     switch bookmarks</br>
-`Ctrl + Shift + PageUp/PageDown`    moving bookmarks</br></br>
-
+---
 
 Do u like it ? Star repo and share it with your friends!)
