@@ -1,4 +1,4 @@
-# List_of_commands           
+# List_of_commands            
 List of my frequent Linux terminal commands (updating every two days)</br>
 Its like a bible lmao)</br>
 I think in near future I write a small book for Linux like "A bit about Linux in many ways !"</br>
