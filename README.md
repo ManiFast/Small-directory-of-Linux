@@ -124,10 +124,25 @@ I think in near future I write a small book for Linux like "A bit about Linux in
 `fg`    return to background</br>
  
 `top` task manager</br>
+`htop`  new task manager</br>
+
 `ps` list of procces</br>
   `ps -aux`    show all in all</br>
   `ps -ax`
   `ps -aux | grep manifast`    find strings with this word</br>
+ 
+`kill <signal>`  kill process, find signal from 'ps -aux'</br>
+  `kill -9 2763`</br>
+  `kill -KILL 2763`</br>
+  `kill -9/KILL %`  kill last process</br>
+  `kill %2`  point to second task</br>
+ 
+`<command> &`  & - needed for start task into background</br>
+   `updatedb &`</br>
+   
+`jobs`  show tasks list in background</br>
+ 
+ 
  
 `whoami` what user</br>
 `id` which groups u consist</br>
