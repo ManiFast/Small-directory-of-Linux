@@ -41,6 +41,7 @@ I think in near future I write a small book for Linux like "A bit about Linux in
     - [theHarvester](#theharvester) 
     - [Search Email Collector](#search_email_collector)
     - [Maltego](#maltego)
+  - [Koadic](#koadic)
 
 - [<b>Linux</b>](#linux)
   - [Distributions](#Distributions)
@@ -779,7 +780,14 @@ Use for find login page or enother info</br>
   
 #### Maltego
 
-  
+
+### Koadic
+`sudo apt install koadic` install</br>
+
+![image](https://user-images.githubusercontent.com/62830326/208285967-d714b223-d55d-44e9-a519-4e3d1910279d.png)
+
+`info` info what port and what ip</br>
+`run` run script and copy link to paste in cmd in Windows promt</br>
   
   
 
