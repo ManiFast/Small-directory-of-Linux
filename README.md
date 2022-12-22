@@ -113,6 +113,22 @@ I think in near future I write a small book for Linux like "A bit about Linux in
 `date`    show date (with args)</br>
   `date +"%H:%M"`    11:32, certain cut date</br>
   
+`whoami` what user</br>
+`id` which groups u consist</br>
+  `id root` show id root</br>
+    
+`last` who enter in pc</br>
+`who` who now use pc</br>
+`w` what all users do</br>
+  
+`su` <user> change user</br>
+  
+`locate <app>` where is program locate</br>
+  
+`fakeroot` fake root in kali</br>
+  
+`sudo apt search` search packages for install</br>
+  
 `> >>`    clear and rewrite/just write at the end</br>
 `2>`    catch errors</br>
   `grep cats animals/* 2> errors.txt`    find strings with word 'cats' in all files in folder 'animals' and errors write in 'errors.txt' file</br>
@@ -142,24 +158,8 @@ I think in near future I write a small book for Linux like "A bit about Linux in
    `updatedb &`</br>
    
 `jobs`  show tasks list in background</br>
- 
- 
- 
-`whoami` what user</br>
-`id` which groups u consist</br>
-  `id root` show id root</br>
-    
-`last` who enter in pc</br>
-`who` who now use pc</br>
-`w` what all users do</br>
-  
-`su` <user> change user</br>
-  
-`locate <app>` where is program locate</br>
-  
-`fakeroot` fake root in kali</br>
-  
-`sudo apt search` search packages for install</br>
+
+`nmcli d wifi connect <name> password <password> ifname wlan0` connect wifi</br> 
  
 ### Keybinds
 
