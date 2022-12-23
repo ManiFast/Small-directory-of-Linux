@@ -795,6 +795,8 @@ Usuing for scan wifi and overload users from wlan</br>
 
 `airmon-ng check kill` kill not using proccess</br>
 
+`airmon-ng start wlan0` enable monitor mode</br>
+
 `airodump-ng wlan0` monitoring</br>
 
 `airodump-ng --bssid <MAC> --channel <CH> -w <path> <LAN type>` listen certain LAN</br>
