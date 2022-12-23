@@ -6,6 +6,7 @@ I think in near future I write a small book for Linux like "A bit about Linux in
 # Table of Contents:
 - [<b>Main</b>](#main)
   - [Commands](#commands)
+  - [LAN](#lan)
   - [KeyBinds](#keybinds)
   - [Logs](#logs)
   - [Input text in file](#input_text_in_file)
@@ -159,8 +160,31 @@ I think in near future I write a small book for Linux like "A bit about Linux in
    `updatedb &`</br>
    
 `jobs`  show tasks list in background</br>
+ 
+### LAN
 
 `nmcli d wifi connect <name> password <password> ifname wlan0` connect wifi</br> 
+
+`nmtui` Network Manager TUI</br>
+
+![image](https://user-images.githubusercontent.com/62830326/209325587-beab3bb9-fab4-4e38-a1ac-57d64db7f610.png)</br>
+
+`/etc/network/interfaces`</br>
+
+![image](https://user-images.githubusercontent.com/62830326/209325802-8ada84ca-c6b0-47c5-850f-651bdbd5fb37.png)</br>
+
+text:</br>
+auto eth0</br>
+iface eth0 inet static</br>
+address 192.168.0.226/24</br>
+gateway 192.168.0.1</br>
+
+
+
+`systemctl restart NetworkManager.service` restart connections</br>
+
+
+ 
  
 ### Keybinds
 
