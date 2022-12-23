@@ -832,9 +832,9 @@ Usuing for scan wifi and overload users from wlan</br>
   `aireplay-ng --deauth 0 -a 84:D8:1B:61:C1:2C wlan0`</br>
   use --help for more !</br>
 
-![image](https://user-images.githubusercontent.com/62830326/209209858-30573929-c167-446b-a53d-43d4763234af.png)
+![image](https://user-images.githubusercontent.com/62830326/209209858-30573929-c167-446b-a53d-43d4763234af.png)</br
 
-
+You remain invisible on the web</br
 
 
 
