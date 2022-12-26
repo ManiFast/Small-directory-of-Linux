@@ -963,7 +963,7 @@ if you press tab in the name that was, it will add itself</br>
 `fakeroot` fakeroot</br></br>
 `Ctrl + Alt + стрелки`      switch desktop</br>
 `Ctrl + h` replacement (замена) backspace</br>
-
+`Alt + WhellUp/Down` loop</br>
 
 ---
 
