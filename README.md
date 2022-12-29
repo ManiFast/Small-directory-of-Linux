@@ -614,6 +614,7 @@ example:</br>
 `sudo nmap -A --reason <ip> -oX <path>.xml`</br>
 `sudo nmap -A --reason -v 192.168.0.106 -p 0-54535 -oX /home/manifast/Desktop/scan.xml`</br>
 `sudo nmap -A -T4 -v <ip>`</br>
+`sudo nmap -sC -sV <ip>`</br>
 
   
 DOCS:
