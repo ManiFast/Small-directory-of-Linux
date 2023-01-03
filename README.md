@@ -1,9 +1,17 @@
-# List_of_commands                                           
+# Tools and settings                                         
 List of my frequent Lin ux terminl commands (updating every two days)</br>
 Its like a bible lmao)</br>
 I think in near future I write a small book for Linux like "A bit about Linux in many ways !"</br>
 
-# Table of Contents:
+> **Warning** 
+> 
+> *For informational and educational purposes only.*
+
+> **Hint** 
+> 
+> *Click 🔙 to get back.*
+
+# List:
 - [<b>Main</b>](#main)
   - [Commands](#commands)
   - [LAN](#lan)
@@ -46,7 +54,7 @@ I think in near future I write a small book for Linux like "A bit about Linux in
   - [Aircrack-ng](#aircrack-ng)
 
 - [<b>Linux</b>](#linux)
-  - [Distributions](#Distributions)
+  - [Distributions](#distributions)
     - [Debian](#debian)
     - [Arch](#arch)
   - [Root](#root)
@@ -205,7 +213,7 @@ Close:</br>
 `Ctrl + Q` resume output</br>
 
   
-### Logs
+###  Logs
  
 `/var/log` logs</br>
 `sudo dmesg` log of Linux core</br>
@@ -214,12 +222,12 @@ Close:</br>
 `/etc/group`  all users groups (f.e how can use sudo)</br>
  
   
-### Input_text_in_file
+###  Input_text_in_file
   1) `cat > file.txt << ENDL`</br>    '>' its write in end ENDL its special word witch means end of line (random word)</br>
   2) `printf "text" > file.txt`</br>
   
 
-### Users
+###  Users
 `useradd -m` <name> add user (with home directory)</br>
 `userdel -r` <name> delete user (with home)</br>
 
@@ -232,7 +240,7 @@ Close:</br>
  `usermod -aG` <group> <user> add user to group</br>
  `deluser` <user> <group> delete user from group</br>
 
-### Archiving
+###  Archiving
 tar using without "-"
 `tar cvf <name.tar> <folder>` create archive (c - create, v - view, f - must be in end)</br>
   tar cvf data.tar dataBig/</br>
@@ -242,7 +250,7 @@ tar using without "-"
       tar -C home/ -xvf data.tar</br>
 `tar tf <name.tar>` view what in tar (t - test)</br>
 
-### Compression
+###  Compression
 Compressing one file, (for example compress one big tar)</br>
 1) gzip <b>.gz</b></br>
 `gzip <tar file/or 1 big file>` zip</br>
@@ -287,7 +295,7 @@ Uncompression archving tar:</br>
 
 </br>
 
-## Bash_scripting
+##  Bash_scripting
 `var="string"`       create valuable</br>
 `read` <var>         like "cin»var", write in value</br>
 `var=$1/2`                 AKA Argument,      ./file $1</br>
@@ -296,7 +304,7 @@ Uncompression archving tar:</br>
 
 </br>
 
-## Keys
+##  Keys
 `^`    Its Ctrl</br>
 `^A ^E`   go to start or end </br>
 `^R`         finding commands</br>
@@ -322,9 +330,9 @@ Uncompression archving tar:</br>
 ---------------------------------------------------------------------------------------------
 
 
-## Software
+##  Software
 
-### VIM
+###  VIM
 `^:`  open vim command line</br>
 `!`   extra ...  !q extra quit</br>
 `w`   save</br>
@@ -944,7 +952,7 @@ Paths:</br>
 <b>Delete unuseful dependencies(зависимостей):</b></br>
 `sudo apt autoremove`</br>
 
-# Emoji in promt
+# Emoji
 ![image](https://user-images.githubusercontent.com/62830326/191039766-9b7ce2ba-e814-46e0-9c45-53cb131e9736.png)</br>
 `sed -i 's/prompt_symbol=㉿/prompt_symbol=💻/' ~/.zshrc` for user</br>
 `sed -i 's/prompt_symbol=㉿/prompt_symbol=💀/' ~/.zshrc` for root</br>
