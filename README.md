@@ -15,6 +15,10 @@ I think in near future I write a small book for Linux like "A bit about Linux in
 - [<b>Main</b>](#main)
   - [Commands](#commands)
   - [LAN](#lan)
+    - [Wi-Fi](#wifi)
+    - [nmtui](#nmtui)
+    - [config of interfaces](#config_of_interfaces)
+    - [Others](#others)
   - [KeyBinds](#keybinds)
   - [Logs](#logs)
   - [Input text in file](#input_text_in_file)
@@ -49,7 +53,6 @@ I think in near future I write a small book for Linux like "A bit about Linux in
   - [Set emoji](#emoji)
 
 - [<b>Tricks</b>](#tricks)
-
 
 ---
 
@@ -148,11 +151,16 @@ I think in near future I write a small book for Linux like "A bit about Linux in
  
 ### LAN
 
+#### wifi
+
 `nmcli d wifi connect <name> password <password> ifname wlan0` connect wifi</br> 
 
+#### nmtui
 `nmtui` Network Manager TUI</br>
 
 ![image](https://user-images.githubusercontent.com/62830326/209325587-beab3bb9-fab4-4e38-a1ac-57d64db7f610.png)</br>
+
+#### Config_of_interfaces
 
 `/etc/network/interfaces`</br>
 
@@ -164,7 +172,27 @@ iface eth0 inet static</br>
 address 192.168.0.226/24</br>
 gateway 192.168.0.1</br>
 
+Set to default if u have problems with connetion like (ping, browser etc.)</br>
 
+In /etc/network/interfaces u must make like this:</br></br>
+```
+# This file describes the network interfaces available on your system
+# and how to activate them. For more information, see interfaces(5).
+
+source /etc/network/interfaces.d/*
+
+# The loopback network interface
+auto lo
+iface lo inet loopback
+
+auto eth0
+#iface eth0 inet static
+#address 193.168.0.224/24
+#gateway 192.168.0.1
+iface eth0 inet dhcp
+```
+
+#### Others
 
 `systemctl restart NetworkManager.service` restart connections</br>
 
@@ -367,7 +395,7 @@ in VISUAL mode:</br>
  
  
  
- ## neo_vim
+ ## Neo_vim
  `sudo apt install neovim -y` install</br>
  `sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'` write this in directory ~/.config/nvim</br>
@@ -416,14 +444,14 @@ apt search <name of packet></br>
   
 
 ### Arch
-*pacman* is a packet manager in Arch</br>
+*Pacman* is a packet manager in Arch</br>
 
-func:</br>
-sudo pacman -S <name of packet>          install</br>
-sudo pacman -Ss <name of packet>        search</br>
-sudo pacman -R <name of packet>    remove</br>
-sudo pacman -R <name of packet>    remove expact config (dependencies)</br>
-sudo pacman -Rns <name of packet>         remove with all config dependencies</br>
+Funcions:</br>
+`sudo pacman -S <name of packet>`          install</br>
+`sudo pacman -Ss <name of packet>`        search</br>
+`sudo pacman -R <name of packet>`    remove</br>
+`sudo pacman -R <name of packet>`    remove expact config (dependencies)</br>
+`sudo pacman -Rns <name of packet>`         remove with all config dependencies</br>
 
 `sudo pacman -Syu` update Linux</br>
 
