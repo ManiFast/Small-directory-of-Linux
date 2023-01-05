@@ -1,5 +1,5 @@
 
-# Tools and settings       
+# Tools and settings        
 
 <h3>List of my frequent Lin ux terminl commands (updating every two days)</br></br>
 <i>Its like a bible lmao)</br>
@@ -148,6 +148,10 @@ I think in near future I write a small book for Linux like "A bit about Linux in
    `updatedb &`</br>
    
 `jobs`  show tasks list in background</br>
+ 
+ `hostname` ur nick</br>
+`hostnamectl` show vresion (check the Kernel version and CPU architecture)</br>
+`lsb_release -a` check the release version, description, and operating system codename</br>
  
 ### LAN
 
