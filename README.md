@@ -51,6 +51,7 @@ I think in near future I write a small book for Linux like "A bit about Linux in
 - [<b>Features</b>](#features_of_linux)
   - [APT remove](#apt-remove)
   - [Set emoji](#emoji)
+  - [Terminal](#terminal)
 
 - [<b>Tricks</b>](#tricks)
 
@@ -536,10 +537,13 @@ Paths:</br>
 <b>Delete unuseful dependencies(зависимостей):</b></br>
 `sudo apt autoremove`</br>
 
-# Emoji
+## Emoji
 ![image](https://user-images.githubusercontent.com/62830326/191039766-9b7ce2ba-e814-46e0-9c45-53cb131e9736.png)</br>
 `sed -i 's/prompt_symbol=㉿/prompt_symbol=💻/' ~/.zshrc` for user</br>
 `sed -i 's/prompt_symbol=㉿/prompt_symbol=💀/' ~/.zshrc` for root</br>
+
+## Terminal
+Kali Linux use the Qterminal like main terminal emulator and more like byouye and xfce4-terminal
 
 
 
@@ -557,6 +561,9 @@ if you press tab in the name that was, it will add itself</br>
 `Ctrl + Alt + стрелки`      switch desktop</br>
 `Ctrl + h` replacement (замена) backspace</br>
 `Alt + WhellUp/Down` loop</br>
+U can install only needed programs from different system like:</br>
+`sudo apt install gnome-calculator` or</br>
+`sudo apt install xfce4-terminal`</br>
 
 ---
 
