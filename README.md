@@ -150,9 +150,16 @@ I think in near future I write a small book for Linux like "A bit about Linux in
    
 `jobs`  show tasks list in background</br>
  
- `hostname` ur nick</br>
+`hostname` ur nick</br>
 `hostnamectl` show vresion (check the Kernel version and CPU architecture)</br>
 `lsb_release -a` check the release version, description, and operating system codename</br>
+ 
+ `ping` using for test connection and avalible of server</br>
+  `ping -c yandex.ru` test only 3 times and get right info</br>
+ 
+ 
+ 
+ 
  
 ### LAN
 
@@ -202,6 +209,10 @@ iface eth0 inet dhcp
 `systemctl restart NetworkManager.service` restart connections</br>
 
 
+ 
+ 
+ 
+ 
  
  
 ### Keybinds
