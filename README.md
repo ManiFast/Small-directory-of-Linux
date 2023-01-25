@@ -1,4 +1,4 @@
-   
+    
 # Tools and settings                         
    
 <h3>List of my frequent Lin ux terminl commands (updating every two days)</br></br>
