@@ -157,7 +157,9 @@ I think in near future I write a small book for Linux like "A bit about Linux in
  `ping` using for test connection and avalible of server</br>
   `ping -c yandex.ru` test only 3 times and get right info</br>
  
- 
+install packages in Debian:</br>
+`sudo dpkg -i <path>`</br>
+     sudo dpkg -i quickhash_3.3.1-1_amd64.deb</br>
  
  
  
