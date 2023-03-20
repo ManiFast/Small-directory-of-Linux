@@ -60,6 +60,9 @@ I think in near future I write a small book for Linux like "A bit about Linux in
 
 ## Main
 ### Commands
+| **Command** | **Description** |
+| --------------|-------------------|
+
 `!$`    last argument (напр mkdir ss/sdf)</br>
 `!!`    previous comand</br>
 `Super+Space`     change language keyboard</br>
