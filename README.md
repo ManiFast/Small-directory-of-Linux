@@ -512,7 +512,16 @@ in terminal:</br>
 </br>
 
 ## Update
-Обновить Kali:</br>
+Linux version:</br>
+`uname -r`</br>
+6.1.0-kali9-amd64</br></br>
+
+`cat /proc/version`</br>
+Linux version 6.1.0-kali9-amd64 (devel@kali.org) (gcc-12 (Debian 12.2.0-14) 12.2.0,</br>GNU ld (GNU Binutils for Debian) 2.40) #1 SMP PREEMPT_DYNAMIC Debian 6.1.27-1kali1 (2023-05-12)</br></br>
+
+`lsb_release -r`</br></br>
+
+Update Kali:</br>
 `sudo apt update && sudo apt full-upgrade -y && sudo reboot -f`</br></br>
 
 /etc/apt/sources.list </br>
