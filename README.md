@@ -600,5 +600,5 @@ U can install only needed programs from different system like:</br>
 `sudo apt install xfce4-terminal`</br>
 
 ---
-
+![](https://github.com/ManiFast/DeskTop/blob/main/Screenshot_2023-07-05_11_10_22.png)
 Do u like it ? Star repo and share it with your friends!)
