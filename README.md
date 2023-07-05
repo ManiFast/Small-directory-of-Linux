@@ -47,6 +47,8 @@ I think in near future I write a small book for Linux like "A bit about Linux in
     - [KDE](#kde)
     - [xfce](#xfce)
   - [Config bash](#config_bash)
+    - [.bashrc](#bashrc)
+    - [.zshrc](#zshrc)
   
 - [<b>Features</b>](#features_of_linux)
   - [APT remove](#apt-remove)
@@ -552,11 +554,17 @@ deb-src http://http.kali.org/kali kali-rolling main non-free contrib`
 ### xfce
 
 ## config_bash
+
+### bashrc
 Paths:</br>
 `/etc/bash.bashrc`</br>
 `/root/.bashrc`</br>
 
+### zshrc
+Path:</br>
+`/.zshrc`</br>
 
+-> ![Config.txt](https://github.com/ManiFast/Small-directory-of-Linux/blob/main/Config_zshrc.txt) <-
 
 # Features_of_linux
 ## apt-remove</br>
