@@ -465,7 +465,10 @@ apt search <name of packet></br>
 
 `sudo apt update -y $$ sudo apt upgrade -y` full update Linux</br>
   `-y` without ask</br>
-  
+
+packeges:</br>
+`sudo apt install ./deb_file` install .deb files</br>
+
 
 ### Arch
 *Pacman* is a packet manager in Arch</br>
