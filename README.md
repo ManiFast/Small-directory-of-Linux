@@ -469,6 +469,10 @@ apt search <name of packet></br>
 packeges:</br>
 `sudo apt install ./deb_file` install .deb files</br>
 
+Install & Execute BIN files:</br>
+
+`chmod + x <filename> `</br>
+`./<filename>`</br>
 
 ### Arch
 *Pacman* is a packet manager in Arch</br>
