@@ -160,6 +160,7 @@ I think in near future I write a small book for Linux like "A bit about Linux in
 `hostnamectl` show vresion (check the Kernel version and CPU architecture)</br>
 `lsb_release -a` check the release version, description, and operating system codename</br>
 `uname -a` shows the current kernel and OS information</br>
+`sudo adduser `id -un` libvirt` add user for qemu</br>
  
  `ping` using for test connection and avalible of server</br>
   `ping -c yandex.ru` test only 3 times and get right info</br>
