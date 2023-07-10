@@ -49,6 +49,7 @@ I think in near future I write a small book for Linux like "A bit about Linux in
   - [Config bash](#config_bash)
     - [.bashrc](#bashrc)
     - [.zshrc](#zshrc)
+  - [GRUB](#grub)
   
 - [<b>Features</b>](#features_of_linux)
   - [APT remove](#apt-remove)
@@ -575,6 +576,16 @@ Path:</br>
 
 -> ![Config.txt](https://github.com/ManiFast/Small-directory-of-Linux/blob/main/Config_zshrc.txt) <-
 
+## grub
+GRUB (GNU GRUB -  GRand Unified Bootloader) is default OS bootloader wich have quite good configuration.</br>
+
+`sudo nvim /etc/default/grub` config of GRUB</br>
+
+If you write changes you must reload GRUB</br>
+
+`sudo update-grub` </br>
+
+
 # Features_of_linux
 ## apt-remove</br>
 <b>Delete unuseful dependencies(зависимостей):</b></br>
@@ -587,7 +598,6 @@ Path:</br>
 
 ## Terminal
 Kali Linux use the Qterminal like main terminal emulator and more like byouye and xfce4-terminal
-
 
 
 
