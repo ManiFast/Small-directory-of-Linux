@@ -166,7 +166,9 @@ I think in near future I write a small book for Linux like "A bit about Linux in
 install packages in Debian:</br>
 `sudo dpkg -i <path>`</br>
      sudo dpkg -i quickhash_3.3.1-1_amd64.deb</br>
- 
+
+Check for supporting vm:
+`LC_ALL=C lscpu | grep Virtualization` </br>
  
  
 ### LAN
