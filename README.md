@@ -586,7 +586,7 @@ Linux version 6.1.0-kali9-amd64 (devel@kali.org) (gcc-12 (Debian 12.2.0-14) 12.2
 
 `lsb_release -r`</br></br>
 
-Update Kali:</br>
+Update Debian/Kali:</br>
 `sudo apt update && sudo apt full-upgrade -y && sudo reboot -f`</br></br>
 
 /etc/apt/sources.list </br>
@@ -594,6 +594,10 @@ Update Kali:</br>
 `deb http://http.kali.org/kali kali-rolling main non-free contrib
 deb-src http://http.kali.org/kali kali-rolling main non-free contrib`
 
+`apt-get update` address update, update software source data.</br>
+`apt-get upgrade` software update, update all installed software.</br>
+`apt-get dist-upgrade` system update, replace the system version.</br>
+`apt-get clean` Clean up garbage, delete all downloaded packages.</br>
 
 
 </br>
