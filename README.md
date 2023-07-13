@@ -334,28 +334,7 @@ Uncompression archving tar:</br>
 
 </br>
 
-##  Bash_scripting
-`var="string"`       create valuable</br>
-`read` <var>         like "cin»var", write in value</br>
-`var=$1/2`                 AKA Argument,      ./file $1</br>
-`daytoday=$(date +"%D")`        example of pasting output command</br>
 
-
-</br>
-
-##  Keys
-`^`    Its Ctrl</br>
-`^A ^E`   go to start or end </br>
-`^R`         finding commands</br>
-`^U`        clear what written on left</br>
-`^M`       new line</br>
-
-`^Shift+V`              paste text</br>
-`^Shift+Insert`      paste text too :D</br>
-
-`^h` show hidden files
-
-</br>
 
 ## gcc
 Hot to compile and run c/c++ file.
@@ -400,6 +379,29 @@ c:</br>
 c++:</br>
 `g++ ac.C bc.C file3.C -o my-program-name`</br>
 
+
+#  Bash_scripting
+`var="string"`       create valuable</br>
+`read` <var>         like "cin»var", write in value</br>
+`var=$1/2`                 AKA Argument,      ./file $1</br>
+`daytoday=$(date +"%D")`        example of pasting output command</br>
+
+
+</br>
+
+# Keys
+`^`    Its Ctrl</br>
+`^A ^E`   go to start or end </br>
+`^R`         finding commands</br>
+`^U`        clear what written on left</br>
+`^M`       new line</br>
+
+`^Shift+V`              paste text</br>
+`^Shift+Insert`      paste text too :D</br>
+
+`^h` show hidden files
+
+</br>
 
 
 
