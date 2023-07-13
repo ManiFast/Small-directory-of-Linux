@@ -28,6 +28,9 @@ I think in near future I write a small book for Linux like "A bit about Linux in
   - [Compiling](#compiling)
 - [<b>BASH scripting</b>](#bash_scripting)
 - [<b>Hot keys</b>](#keys)
+- [<b>gcc compile c/c++ program</b>](#gcc)
+  
+
 - [<b>Software</b>](#software)
   - [VIM](#vim)
     - [Macros](#macros)
@@ -353,6 +356,50 @@ Uncompression archving tar:</br>
 `^h` show hidden files
 
 </br>
+
+## gcc
+Hot to compile and run c/c++ file.
+In default gcc can be installed on your system if not ->
+
+`sudo apt-get install build-essential manpages-dev`</br>
+``</br>
+
+Create file, edit it and save like `.c` or `.cpp`</br>
+
+For c:</br>
+`cc program.c -o program`</br>
+
+For c++</br>
+`gcc program.c -o program`</br>
+
+or universal:</br>
+`make program.c` </br>
+
+How to run:</br>
+`./program` or `/home/Desktop/program`</br>
+
+(not necessary)
+
+Generate symbolic information for gdb and warning messages</br>
+c:</br>
+`cc -g -Wall input.c -o executable`</br>
+c++:</br>
+`g++ -g -Wall input.C -o executable `</br>
+
+Compile a C program that uses math functions</br>
+c:</br>
+`cc myth1.c -o executable -lm `</br>
+
+Compile a C++ program that uses Xlib graphics functions</br>
+c++:</br>
+`g++ fireworks.C -o executable -lX11`</br>
+
+Compile a program with multiple source files</br>
+c:</br>
+`cc light.c sky.c fireworks.c -o executable`</br>
+c++:</br>
+`g++ ac.C bc.C file3.C -o my-program-name`</br>
+
 
 
 
