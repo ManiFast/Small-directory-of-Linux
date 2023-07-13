@@ -26,9 +26,9 @@ I think in near future I write a small book for Linux like "A bit about Linux in
   - [Archiving](#archiving)
   - [Compression](#compression)
   - [Compiling](#compiling)
+  - [gcc compile c/c++ program](#gcc)
 - [<b>BASH scripting</b>](#bash_scripting)
 - [<b>Hot keys</b>](#keys)
-- [<b>gcc compile c/c++ program</b>](#gcc)
   
 
 - [<b>Software</b>](#software)
