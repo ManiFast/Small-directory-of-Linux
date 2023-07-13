@@ -119,7 +119,9 @@ I think in near future I write a small book for Linux like "A bit about Linux in
 `w` what all users do</br>
   
 `su` <user> change user</br>
-  
+
+`fiind` find but not use</br>
+`whereis` locate main place</br>
 `locate <app>` where is program locate</br>
   
 `fakeroot` fake root in kali</br>
