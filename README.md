@@ -120,9 +120,10 @@ I think in near future I write a small book for Linux like "A bit about Linux in
   
 `su` <user> change user</br>
 
-`fiind` find but not use</br>
-`whereis` locate main place</br>
-`locate <app>` where is program locate</br>
+`fiind` find but not use, search for files in a directory hierarchy</br>
+`whereis` locate main place, locate the binary, source, and manual page files for a command</br>
+`which` locate a command</br>
+`locate <app>`/`plocate <app>` where is program locate, find files by name, quickly</br>
   
 `fakeroot` fake root in kali</br>
   
