@@ -1,7 +1,7 @@
       
 # Tools and settings                         
      
-<h3>List of my frequent Lin ux terminl commands (updating every two days)</br></br>
+<h3>List of my frequent Lin ux terminl commands (updating every two days)</br></br> 
 <i>Its like a bible lmao)</br>
 I think in near future I write a small book for Linux like "A bit about Linux in many ways !"</i></h3></br>
 
@@ -170,6 +170,9 @@ I think in near future I write a small book for Linux like "A bit about Linux in
  
  `ping` using for test connection and avalible of server</br>
   `ping -c yandex.ru` test only 3 times and get right info</br>
+
+`sudo date -s "$(wget --method=HEAD -qSO- --max-redirect=0 google.com 2>&1 | sed -n 's/^ *Date: *//p')"` set date</br>
+
  
 install packages in Debian:</br>
 `sudo dpkg -i <path>`</br>
