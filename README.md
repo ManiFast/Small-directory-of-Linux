@@ -178,8 +178,11 @@ install packages in Debian:</br>
 `sudo dpkg -i <path>`</br>
      sudo dpkg -i quickhash_3.3.1-1_amd64.deb</br>
 
-Check for supporting vm:
+Check for supporting vm:</br>
 `LC_ALL=C lscpu | grep Virtualization` </br>
+
+Time:</br>
+`sudo ln -sf /usr/share/zoneinfo/Asia/Tashkent /etc/localtime`</br>
  
  
 ### LAN
