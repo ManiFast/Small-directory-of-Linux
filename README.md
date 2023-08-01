@@ -29,13 +29,14 @@ I think in near future I write a small book for Linux like "A bit about Linux in
   - [gcc compile c/c++ program](#gcc)
 - [<b>BASH scripting</b>](#bash_scripting)
 - [<b>Hot keys</b>](#keys)
-  
+
 
 - [<b>Software</b>](#software)
   - [VIM](#vim)
     - [Macros](#macros)
     - [Config VIM](#config)
   - [neo VIM](#neo_vim)
+  - [tldr](#tldr)
 
 - [<b>Linux</b>](#linux)
   - [Distributions](#distributions)
@@ -510,7 +511,29 @@ in <b>options.txt</b> file</br>
 `:set <parametr>=<value>`</br>
   `:set guicursor=`</br>
   
--
+
+#tldr
+
+<b>tldr</b> is a small tool that provides concise, easy-to-read summaries of information from man guides.</br>
+
+The Debian man command does not have the same format as Archcraft Linux.</br>
+On Debian, the man command displays man manuals in text format.</br>
+In Archcraft Linux, the man command displays man pages in HTML format.</br>
+To get the same look as in Archcraft Linux, you can use the tldr program.</br>
+The tldr program provides concise, easy-to-read summaries of information</br>
+from man manuals in HTML format. To install the tldr program, you can run the</br>
+following command in a terminal:</br>
+
+`sudo apt install tldr`</br>
+
+It very useful for people like me because show many of examples with all arguments and options like this.</br>
+For example you forget something in nmap or dirb programm and it easly show you all examples, </br>
+ether you waste time of searching in browser.</br> 
+
+
+![image](https://github.com/ManiFast/Small-directory-of-Linux/assets/62830326/dd5632b7-3cbd-4dfd-8a53-56599b239ffd)
+
+
 
 
 # Linux  
