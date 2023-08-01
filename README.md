@@ -512,7 +512,7 @@ in <b>options.txt</b> file</br>
   `:set guicursor=`</br>
   
 
-#tldr
+# tldr
 
 <b>tldr</b> is a small tool that provides concise, easy-to-read summaries of information from man guides.</br>
 
