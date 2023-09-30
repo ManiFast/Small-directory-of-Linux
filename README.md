@@ -1,6 +1,6 @@
       
 # Tools and settings                                                
-     
+      
 <h3>List of my frequent Lin ux terminl commands (updating every two days)</br></br>  
 <i>Its like a bible lmao)</br>
 I think in near future I write a small book for Linux like "A bit about Linux in many ways !"</i></h3></br>
