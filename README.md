@@ -106,6 +106,23 @@ I think in near future I write a small book for Linux like "A bit about Linux in
   `grep "[A-Za-z0-9]*@gmail.com" emails.txt`    example, find all email in end @gmail.com</br>
    [A-Z] [a-z] [0-9] @ _ - . </br>
 
+`curl <URL>`      parsing for sites, give text from URL</br>
+      `curl https://www.kali.org/`      showing html code</br>
+      `curl -s https://hackware.ru/`      show code without statistic</br>
+      `curl -A <URL>`      site didnt know that u use console app with curl</br>
+      `curl --compressed https://www.kali.org/`      without binary trash</br>
+      `curl -s https://hackware.ru/ | grep "extra"`      good sample</br>
+
+If you also have trash, try change charset:</br>
+For ex. when u put this:
+`curl http://z-oleg.com/`</br>
+You see this:
+![84](https://github.com/ManiFast/Small-directory-of-Linux/assets/62830326/aec69bb2-63b6-4afc-b867-637dffa3be0a)</br>
+And u should look what charset set in HTML in tag <meta></br>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251"></br>
+Use <b>iconv</b>:
+`curl http://z-oleg.com/ | iconv -f windows-1251 -t UTF-8`      right charset translate</br>
+
 `ln`    links (like shortcut)</br>
   `ln -s /home/Desktop/Dir`    link to folder</br>
   `ln /home/Desktop/file.txt`    create duplicate of file</br>
