@@ -1,5 +1,5 @@
       
-# Tools and settings                                                             
+# Tools and settings                                                              
        
 <h3>List of my frequent Lin ux terminl commands (updating every two days)</br></br>  
 <i>Its like a bible lmao)</br>
