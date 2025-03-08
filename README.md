@@ -1,5 +1,5 @@
                    
-# Tools and settings                                                                    
+# Tools and settings                                                                     
 <h3>List of my frequent Lin ux terminl commands (updating every two days)</br></br>                                               
        
 <i>Its like a bible lmao)</br>
@@ -7,8 +7,8 @@ I think in near future I write a small book for Linux like "A bit about Linux in
 
 > **Hint** </br> 
 > ![-=> More about pentesting and tools <=-](https://github.com/ManiFast/Pentest-RedTeam-Tools/)
->
->
+
+
 > *Click 🔙 to get back.*
 
 # Table of Contents:
